@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6771E80472B003510D8 /* AppDelegate.swift */; };
+		FAD5A67A1E80472B003510D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6791E80472B003510D8 /* ViewController.swift */; };
+		FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67B1E80472B003510D8 /* Main.storyboard */; };
+		FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67E1E80472B003510D8 /* Assets.xcassets */; };
+		FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */; };
+		FAD5A68D1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A68C1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift */; };
+		FAD5A6981E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6971E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD5A6891E80472B003510D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD5A66C1E80472B003510D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD5A6731E80472B003510D8;
+			remoteInfo = "whale-ios-alexanderdejeu";
+		};
+		FAD5A6941E80472B003510D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD5A66C1E80472B003510D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD5A6731E80472B003510D8;
+			remoteInfo = "whale-ios-alexanderdejeu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-alexanderdejeu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5A6771E80472B003510D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD5A6791E80472B003510D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD5A67C1E80472B003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD5A67E1E80472B003510D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD5A6811E80472B003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD5A6831E80472B003510D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD5A6881E80472B003510D8 /* whale-ios-alexanderdejeuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whale-ios-alexanderdejeuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5A68C1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whale_ios_alexanderdejeuTests.swift; sourceTree = "<group>"; };
+		FAD5A68E1E80472B003510D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD5A6931E80472B003510D8 /* whale-ios-alexanderdejeuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whale-ios-alexanderdejeuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5A6971E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whale_ios_alexanderdejeuUITests.swift; sourceTree = "<group>"; };
+		FAD5A6991E80472B003510D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD5A6711E80472B003510D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A6851E80472B003510D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A6901E80472B003510D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD5A66B1E80472B003510D8 = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6761E80472B003510D8 /* whale-ios-alexanderdejeu */,
+				FAD5A68B1E80472B003510D8 /* whale-ios-alexanderdejeuTests */,
+				FAD5A6961E80472B003510D8 /* whale-ios-alexanderdejeuUITests */,
+				FAD5A6751E80472B003510D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD5A6751E80472B003510D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */,
+				FAD5A6881E80472B003510D8 /* whale-ios-alexanderdejeuTests.xctest */,
+				FAD5A6931E80472B003510D8 /* whale-ios-alexanderdejeuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD5A6761E80472B003510D8 /* whale-ios-alexanderdejeu */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6A51E804853003510D8 /* Extensions */,
+				FAD5A6A61E804853003510D8 /* Networking */,
+				FAD5A6A91E804853003510D8 /* UI */,
+				FAD5A6771E80472B003510D8 /* AppDelegate.swift */,
+				FAD5A6791E80472B003510D8 /* ViewController.swift */,
+				FAD5A67B1E80472B003510D8 /* Main.storyboard */,
+				FAD5A67E1E80472B003510D8 /* Assets.xcassets */,
+				FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */,
+				FAD5A6831E80472B003510D8 /* Info.plist */,
+			);
+			path = "whale-ios-alexanderdejeu";
+			sourceTree = "<group>";
+		};
+		FAD5A68B1E80472B003510D8 /* whale-ios-alexanderdejeuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A68C1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift */,
+				FAD5A68E1E80472B003510D8 /* Info.plist */,
+			);
+			path = "whale-ios-alexanderdejeuTests";
+			sourceTree = "<group>";
+		};
+		FAD5A6961E80472B003510D8 /* whale-ios-alexanderdejeuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6971E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift */,
+				FAD5A6991E80472B003510D8 /* Info.plist */,
+			);
+			path = "whale-ios-alexanderdejeuUITests";
+			sourceTree = "<group>";
+		};
+		FAD5A6A51E804853003510D8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAD5A6A61E804853003510D8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6AD1E80488A003510D8 /* APICLient */,
+				FAD5A6AE1E80488A003510D8 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAD5A6A91E804853003510D8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5A6AA1E804853003510D8 /* Cells */,
+				FAD5A6AB1E804853003510D8 /* Scenes */,
+				FAD5A6AC1E804853003510D8 /* Storyboards */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FAD5A6AA1E804853003510D8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FAD5A6AB1E804853003510D8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FAD5A6AC1E804853003510D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAD5A6AD1E80488A003510D8 /* APICLient */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APICLient;
+			sourceTree = "<group>";
+		};
+		FAD5A6AE1E80488A003510D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD5A6731E80472B003510D8 /* whale-ios-alexanderdejeu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD5A69C1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeu" */;
+			buildPhases = (
+				FAD5A6701E80472B003510D8 /* Sources */,
+				FAD5A6711E80472B003510D8 /* Frameworks */,
+				FAD5A6721E80472B003510D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "whale-ios-alexanderdejeu";
+			productName = "whale-ios-alexanderdejeu";
+			productReference = FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD5A6871E80472B003510D8 /* whale-ios-alexanderdejeuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD5A69F1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuTests" */;
+			buildPhases = (
+				FAD5A6841E80472B003510D8 /* Sources */,
+				FAD5A6851E80472B003510D8 /* Frameworks */,
+				FAD5A6861E80472B003510D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD5A68A1E80472B003510D8 /* PBXTargetDependency */,
+			);
+			name = "whale-ios-alexanderdejeuTests";
+			productName = "whale-ios-alexanderdejeuTests";
+			productReference = FAD5A6881E80472B003510D8 /* whale-ios-alexanderdejeuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD5A6921E80472B003510D8 /* whale-ios-alexanderdejeuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD5A6A21E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuUITests" */;
+			buildPhases = (
+				FAD5A68F1E80472B003510D8 /* Sources */,
+				FAD5A6901E80472B003510D8 /* Frameworks */,
+				FAD5A6911E80472B003510D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD5A6951E80472B003510D8 /* PBXTargetDependency */,
+			);
+			name = "whale-ios-alexanderdejeuUITests";
+			productName = "whale-ios-alexanderdejeuUITests";
+			productReference = FAD5A6931E80472B003510D8 /* whale-ios-alexanderdejeuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD5A66C1E80472B003510D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Do Good Technology";
+				TargetAttributes = {
+					FAD5A6731E80472B003510D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P2AA55448J;
+						ProvisioningStyle = Automatic;
+					};
+					FAD5A6871E80472B003510D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P2AA55448J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD5A6731E80472B003510D8;
+					};
+					FAD5A6921E80472B003510D8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P2AA55448J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAD5A6731E80472B003510D8;
+					};
+				};
+			};
+			buildConfigurationList = FAD5A66F1E80472B003510D8 /* Build configuration list for PBXProject "whale-ios-alexanderdejeu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD5A66B1E80472B003510D8;
+			productRefGroup = FAD5A6751E80472B003510D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD5A6731E80472B003510D8 /* whale-ios-alexanderdejeu */,
+				FAD5A6871E80472B003510D8 /* whale-ios-alexanderdejeuTests */,
+				FAD5A6921E80472B003510D8 /* whale-ios-alexanderdejeuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD5A6721E80472B003510D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */,
+				FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */,
+				FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A6861E80472B003510D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A6911E80472B003510D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD5A6701E80472B003510D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5A67A1E80472B003510D8 /* ViewController.swift in Sources */,
+				FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A6841E80472B003510D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5A68D1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5A68F1E80472B003510D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5A6981E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD5A68A1E80472B003510D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD5A6731E80472B003510D8 /* whale-ios-alexanderdejeu */;
+			targetProxy = FAD5A6891E80472B003510D8 /* PBXContainerItemProxy */;
+		};
+		FAD5A6951E80472B003510D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD5A6731E80472B003510D8 /* whale-ios-alexanderdejeu */;
+			targetProxy = FAD5A6941E80472B003510D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD5A67B1E80472B003510D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5A67C1E80472B003510D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5A6811E80472B003510D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD5A69A1E80472B003510D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD5A69B1E80472B003510D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD5A69D1E80472B003510D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAD5A69E1E80472B003510D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAD5A6A01E80472B003510D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whale-ios-alexanderdejeu.app/whale-ios-alexanderdejeu";
+			};
+			name = Debug;
+		};
+		FAD5A6A11E80472B003510D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whale-ios-alexanderdejeu.app/whale-ios-alexanderdejeu";
+			};
+			name = Release;
+		};
+		FAD5A6A31E80472B003510D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "whale-ios-alexanderdejeu";
+			};
+			name = Debug;
+		};
+		FAD5A6A41E80472B003510D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P2AA55448J;
+				INFOPLIST_FILE = "whale-ios-alexanderdejeuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DoGoodTechnology.whale-ios-alexanderdejeuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "whale-ios-alexanderdejeu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD5A66F1E80472B003510D8 /* Build configuration list for PBXProject "whale-ios-alexanderdejeu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5A69A1E80472B003510D8 /* Debug */,
+				FAD5A69B1E80472B003510D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD5A69C1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5A69D1E80472B003510D8 /* Debug */,
+				FAD5A69E1E80472B003510D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD5A69F1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5A6A01E80472B003510D8 /* Debug */,
+				FAD5A6A11E80472B003510D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAD5A6A21E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5A6A31E80472B003510D8 /* Debug */,
+				FAD5A6A41E80472B003510D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD5A66C1E80472B003510D8 /* Project object */;
+}
