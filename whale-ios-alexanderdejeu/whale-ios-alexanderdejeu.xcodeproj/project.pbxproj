@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D08C9A87771A5D6F0854F83 /* Pods_whale_ios_alexanderdejeuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D846B4E7D039B6B64ABE7EC /* Pods_whale_ios_alexanderdejeuTests.framework */; };
+		68244D959B2E5B345BF3CB30 /* Pods_whale_ios_alexanderdejeu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */; };
+		A6D6D89C843C219E3C78C6B7 /* Pods_whale_ios_alexanderdejeuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */; };
 		FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6771E80472B003510D8 /* AppDelegate.swift */; };
 		FAD5A67A1E80472B003510D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6791E80472B003510D8 /* ViewController.swift */; };
 		FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67B1E80472B003510D8 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */; };
 		FAD5A68D1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A68C1E80472B003510D8 /* whale_ios_alexanderdejeuTests.swift */; };
 		FAD5A6981E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6971E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift */; };
+		FAD5A6B11E805258003510D8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6AF1E805258003510D8 /* Home.storyboard */; };
+		FAD5A6B31E8052B6003510D8 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6B21E8052B6003510D8 /* Activity.storyboard */; };
+		FAD5A6B61E805304003510D8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6B41E805304003510D8 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1179EF7B520B34E5C87BA733 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1AA0D74498001FD6F4341A27 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeu.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu.release.xcconfig"; sourceTree = "<group>"; };
+		2D846B4E7D039B6B64ABE7EC /* Pods_whale_ios_alexanderdejeuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_ios_alexanderdejeuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_ios_alexanderdejeuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B1253A8C343858FE69AA95 /* Pods-whale-ios-alexanderdejeuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0892ECEFE0D95F21FE6E386 /* Pods-whale-ios-alexanderdejeu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_ios_alexanderdejeu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9C3ED707086D07440EA0A0 /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-alexanderdejeu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD5A6771E80472B003510D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD5A6791E80472B003510D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		FAD5A6931E80472B003510D8 /* whale-ios-alexanderdejeuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whale-ios-alexanderdejeuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD5A6971E80472B003510D8 /* whale_ios_alexanderdejeuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whale_ios_alexanderdejeuUITests.swift; sourceTree = "<group>"; };
 		FAD5A6991E80472B003510D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD5A6B01E805258003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		FAD5A6B21E8052B6003510D8 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = "<group>"; };
+		FAD5A6B51E805304003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "whale-ios-alexanderdejeu/Base.lproj/Profile.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68244D959B2E5B345BF3CB30 /* Pods_whale_ios_alexanderdejeu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D08C9A87771A5D6F0854F83 /* Pods_whale_ios_alexanderdejeuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D6D89C843C219E3C78C6B7 /* Pods_whale_ios_alexanderdejeuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32582BA055C2100B86A37D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0892ECEFE0D95F21FE6E386 /* Pods-whale-ios-alexanderdejeu.debug.xcconfig */,
+				1AA0D74498001FD6F4341A27 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */,
+				A5B1253A8C343858FE69AA95 /* Pods-whale-ios-alexanderdejeuTests.debug.xcconfig */,
+				EE9C3ED707086D07440EA0A0 /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */,
+				F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */,
+				1179EF7B520B34E5C87BA733 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FCB2CDFFF88A1A106CF5470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */,
+				2D846B4E7D039B6B64ABE7EC /* Pods_whale_ios_alexanderdejeuTests.framework */,
+				49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAD5A66B1E80472B003510D8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				FAD5A68B1E80472B003510D8 /* whale-ios-alexanderdejeuTests */,
 				FAD5A6961E80472B003510D8 /* whale-ios-alexanderdejeuUITests */,
 				FAD5A6751E80472B003510D8 /* Products */,
+				32582BA055C2100B86A37D85 /* Pods */,
+				8FCB2CDFFF88A1A106CF5470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +148,6 @@
 				FAD5A6A91E804853003510D8 /* UI */,
 				FAD5A6771E80472B003510D8 /* AppDelegate.swift */,
 				FAD5A6791E80472B003510D8 /* ViewController.swift */,
-				FAD5A67B1E80472B003510D8 /* Main.storyboard */,
 				FAD5A67E1E80472B003510D8 /* Assets.xcassets */,
 				FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */,
 				FAD5A6831E80472B003510D8 /* Info.plist */,
@@ -148,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				FAD5A6AA1E804853003510D8 /* Cells */,
-				FAD5A6AB1E804853003510D8 /* Scenes */,
 				FAD5A6AC1E804853003510D8 /* Storyboards */,
 			);
 			path = UI;
@@ -161,16 +205,13 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		FAD5A6AB1E804853003510D8 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
 		FAD5A6AC1E804853003510D8 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				FAD5A6B21E8052B6003510D8 /* Activity.storyboard */,
+				FAD5A67B1E80472B003510D8 /* Main.storyboard */,
+				FAD5A6B41E805304003510D8 /* Profile.storyboard */,
+				FAD5A6AF1E805258003510D8 /* Home.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -196,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD5A69C1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeu" */;
 			buildPhases = (
+				7BC6632A4791BB5DE0C9D7EC /* [CP] Check Pods Manifest.lock */,
 				FAD5A6701E80472B003510D8 /* Sources */,
 				FAD5A6711E80472B003510D8 /* Frameworks */,
 				FAD5A6721E80472B003510D8 /* Resources */,
+				863B5F65648373A7327BB455 /* [CP] Embed Pods Frameworks */,
+				A6F5612BEA7099F5D5EA9D45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD5A69F1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuTests" */;
 			buildPhases = (
+				A5FD5BF0250811D94C8A2BC1 /* [CP] Check Pods Manifest.lock */,
 				FAD5A6841E80472B003510D8 /* Sources */,
 				FAD5A6851E80472B003510D8 /* Frameworks */,
 				FAD5A6861E80472B003510D8 /* Resources */,
+				BE651536B1419F88DB13A6E7 /* [CP] Embed Pods Frameworks */,
+				7F87D73FE270B190F98D0738 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD5A6A21E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuUITests" */;
 			buildPhases = (
+				BF78D6E95DB00BB4960244D4 /* [CP] Check Pods Manifest.lock */,
 				FAD5A68F1E80472B003510D8 /* Sources */,
 				FAD5A6901E80472B003510D8 /* Frameworks */,
 				FAD5A6911E80472B003510D8 /* Resources */,
+				2C7E28E2262F7BEDD4FFEEC0 /* [CP] Embed Pods Frameworks */,
+				FB8EFEF83DC200D8E7F9F62B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,9 +349,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD5A6B61E805304003510D8 /* Profile.storyboard in Resources */,
 				FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */,
 				FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */,
+				FAD5A6B31E8052B6003510D8 /* Activity.storyboard in Resources */,
 				FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */,
+				FAD5A6B11E805258003510D8 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +373,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C7E28E2262F7BEDD4FFEEC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC6632A4791BB5DE0C9D7EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F87D73FE270B190F98D0738 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863B5F65648373A7327BB455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FD5BF0250811D94C8A2BC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F5612BEA7099F5D5EA9D45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE651536B1419F88DB13A6E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF78D6E95DB00BB4960244D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8EFEF83DC200D8E7F9F62B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAD5A6701E80472B003510D8 /* Sources */ = {
@@ -369,6 +560,7 @@
 				FAD5A67C1E80472B003510D8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */ = {
@@ -377,6 +569,24 @@
 				FAD5A6811E80472B003510D8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD5A6AF1E805258003510D8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5A6B01E805258003510D8 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FAD5A6B41E805304003510D8 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5A6B51E805304003510D8 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -477,6 +687,7 @@
 		};
 		FAD5A69D1E80472B003510D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0892ECEFE0D95F21FE6E386 /* Pods-whale-ios-alexanderdejeu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P2AA55448J;
@@ -490,6 +701,7 @@
 		};
 		FAD5A69E1E80472B003510D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA0D74498001FD6F4341A27 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P2AA55448J;
@@ -503,6 +715,7 @@
 		};
 		FAD5A6A01E80472B003510D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B1253A8C343858FE69AA95 /* Pods-whale-ios-alexanderdejeuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +731,7 @@
 		};
 		FAD5A6A11E80472B003510D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9C3ED707086D07440EA0A0 /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +747,7 @@
 		};
 		FAD5A6A31E80472B003510D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P2AA55448J;
@@ -547,6 +762,7 @@
 		};
 		FAD5A6A41E80472B003510D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1179EF7B520B34E5C87BA733 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = P2AA55448J;
