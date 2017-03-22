@@ -1,30 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZxK-Vh-YU6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xYl-BJ-9TO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
-        <scene sceneID="nnc-SV-0sf">
+        <!--Profile-->
+        <scene sceneID="ZE2-NE-67Q">
             <objects>
-                <viewController id="ZxK-Vh-YU6" sceneMemberID="viewController">
+                <viewController id="xYl-BJ-9TO" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wBB-lS-djp"/>
-                        <viewControllerLayoutGuide type="bottom" id="WPL-Qh-FWl"/>
+                        <viewControllerLayoutGuide type="top" id="VkL-CA-mKx"/>
+                        <viewControllerLayoutGuide type="bottom" id="ozg-FX-4nE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="uIC-Ru-vHd">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="FpU-HG-gLM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="x9q-iD-ibs"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" selectedImage="profileSelected" id="h6v-Ht-DOc"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F0l-BB-CGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7YO-8w-1hK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="929" y="867"/>
+            <point key="canvasLocation" x="39.200000000000003" y="-798.35082458770626"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="18" height="20"/>
+        <image name="profileSelected" width="17" height="20"/>
+    </resources>
 </document>

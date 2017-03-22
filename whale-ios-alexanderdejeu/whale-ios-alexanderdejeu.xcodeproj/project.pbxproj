@@ -10,8 +10,11 @@
 		2D08C9A87771A5D6F0854F83 /* Pods_whale_ios_alexanderdejeuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D846B4E7D039B6B64ABE7EC /* Pods_whale_ios_alexanderdejeuTests.framework */; };
 		68244D959B2E5B345BF3CB30 /* Pods_whale_ios_alexanderdejeu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */; };
 		A6D6D89C843C219E3C78C6B7 /* Pods_whale_ios_alexanderdejeuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */; };
+		FA31409F1E82F4BC00A917A0 /* ProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */; };
+		FA3140A11E82F5C500A917A0 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3140A01E82F5C500A917A0 /* ProfileHeader.swift */; };
+		FA3140FB1E8315C600A917A0 /* WhaleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3140FA1E8315C600A917A0 /* WhaleAPI.swift */; };
+		FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3140FC1E831BEC00A917A0 /* LoginViewController.swift */; };
 		FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6771E80472B003510D8 /* AppDelegate.swift */; };
-		FAD5A67A1E80472B003510D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6791E80472B003510D8 /* ViewController.swift */; };
 		FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67B1E80472B003510D8 /* Main.storyboard */; };
 		FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67E1E80472B003510D8 /* Assets.xcassets */; };
 		FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */; };
@@ -49,9 +52,12 @@
 		EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whale_ios_alexanderdejeu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9C3ED707086D07440EA0A0 /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; sourceTree = "<group>"; };
 		F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeader.xib; sourceTree = "<group>"; };
+		FA3140A01E82F5C500A917A0 /* ProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		FA3140FA1E8315C600A917A0 /* WhaleAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhaleAPI.swift; sourceTree = "<group>"; };
+		FA3140FC1E831BEC00A917A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-alexanderdejeu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD5A6771E80472B003510D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAD5A6791E80472B003510D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAD5A67C1E80472B003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD5A67E1E80472B003510D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD5A6811E80472B003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,6 +124,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA31409C1E82F46700A917A0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				FA3140A31E830D3300A917A0 /* LoginSingup */,
+				FA3140A21E83010F00A917A0 /* WhaleVideoPlayer */,
+				FA31409D1E82F47E00A917A0 /* Profile */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		FA31409D1E82F47E00A917A0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */,
+				FA3140A01E82F5C500A917A0 /* ProfileHeader.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA3140A21E83010F00A917A0 /* WhaleVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WhaleVideoPlayer;
+			sourceTree = "<group>";
+		};
+		FA3140A31E830D3300A917A0 /* LoginSingup */ = {
+			isa = PBXGroup;
+			children = (
+				FA3140FC1E831BEC00A917A0 /* LoginViewController.swift */,
+			);
+			path = LoginSingup;
+			sourceTree = "<group>";
+		};
+		FA3140F91E8315AB00A917A0 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				FA3140FA1E8315C600A917A0 /* WhaleAPI.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 		FAD5A66B1E80472B003510D8 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +195,6 @@
 				FAD5A6A61E804853003510D8 /* Networking */,
 				FAD5A6A91E804853003510D8 /* UI */,
 				FAD5A6771E80472B003510D8 /* AppDelegate.swift */,
-				FAD5A6791E80472B003510D8 /* ViewController.swift */,
 				FAD5A67E1E80472B003510D8 /* Assets.xcassets */,
 				FAD5A6801E80472B003510D8 /* LaunchScreen.storyboard */,
 				FAD5A6831E80472B003510D8 /* Info.plist */,
@@ -183,7 +230,7 @@
 		FAD5A6A61E804853003510D8 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				FAD5A6AD1E80488A003510D8 /* APICLient */,
+				FA3140F91E8315AB00A917A0 /* APIClient */,
 				FAD5A6AE1E80488A003510D8 /* Models */,
 			);
 			path = Networking;
@@ -192,6 +239,7 @@
 		FAD5A6A91E804853003510D8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FA31409C1E82F46700A917A0 /* Scenes */,
 				FAD5A6AA1E804853003510D8 /* Cells */,
 				FAD5A6AC1E804853003510D8 /* Storyboards */,
 			);
@@ -214,13 +262,6 @@
 				FAD5A6AF1E805258003510D8 /* Home.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		FAD5A6AD1E80488A003510D8 /* APICLient */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APICLient;
 			sourceTree = "<group>";
 		};
 		FAD5A6AE1E80488A003510D8 /* Models */ = {
@@ -352,6 +393,7 @@
 				FAD5A6B61E805304003510D8 /* Profile.storyboard in Resources */,
 				FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */,
 				FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */,
+				FA31409F1E82F4BC00A917A0 /* ProfileHeader.xib in Resources */,
 				FAD5A6B31E8052B6003510D8 /* Activity.storyboard in Resources */,
 				FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */,
 				FAD5A6B11E805258003510D8 /* Home.storyboard in Resources */,
@@ -517,7 +559,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD5A67A1E80472B003510D8 /* ViewController.swift in Sources */,
+				FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */,
+				FA3140A11E82F5C500A917A0 /* ProfileHeader.swift in Sources */,
+				FA3140FB1E8315C600A917A0 /* WhaleAPI.swift in Sources */,
 				FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -794,6 +838,7 @@
 				FAD5A69E1E80472B003510D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD5A69F1E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuTests" */ = {
 			isa = XCConfigurationList;
@@ -802,6 +847,7 @@
 				FAD5A6A11E80472B003510D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD5A6A21E80472B003510D8 /* Build configuration list for PBXNativeTarget "whale-ios-alexanderdejeuUITests" */ = {
 			isa = XCConfigurationList;
@@ -810,6 +856,7 @@
 				FAD5A6A41E80472B003510D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
