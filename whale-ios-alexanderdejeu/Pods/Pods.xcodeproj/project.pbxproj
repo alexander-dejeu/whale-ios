@@ -8,145 +8,141 @@
 
 /* Begin PBXBuildFile section */
 		04918BA7C29AB8F62BEB96F1CC56ACF8 /* Pods-whale-ios-alexanderdejeuTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F21C4D682FC4C6D74F6BCBE9F7758B63 /* Pods-whale-ios-alexanderdejeuTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08AA89D020B5C4FD74D1529A3E972AB9 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCF0E963910E9009F743D0ACAA6257C /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C72683E328EBE5598F5AE7A0C7729 /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0ED52FFE0CBDBF6999357FA628FAEC /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E4890119018A99C73F0A80D37135BD /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE90956A587377C7F38585409DE4977 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22D0C596401CB297957E4ECB03A4693A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		281E568EF3C55BDDDC792F1345AC07E6 /* Pods-whale-ios-alexanderdejeu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B91A49093D0529F71F6CBAF8BBEB9A /* Pods-whale-ios-alexanderdejeu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66505268AD51F1AA20546D08C6181E02 /* TaskDelegate.swift */; };
-		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519CFB319C29718F6C55FB4A1C97D3C6 /* Request.swift */; };
-		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE23814F734AECF1CFD8FB813326BB09 /* DispatchQueue+Alamofire.swift */; };
-		621F947FCB589CF8716C0B1D2513B369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833A9E68656C23731F72EA50E57D3EF8 /* ServerTrustPolicy.swift */; };
-		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB3A2B2B4D5F4237D9BEFCA803FE254 /* SessionDelegate.swift */; };
-		7C0F17488B3552EAAFC074CFC4491DD5 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEB3D813E4CCC816427B78DFB825A96 /* TegKeychainConstants.swift */; };
-		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6903706B9C180274F081A1A3E8190E /* Result.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91210CE3AC723EAFD2A7D121A1805946 /* TaskDelegate.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746346322379EF979BF51775AF607229 /* Request.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B17DB12B0A7E3E35E6C7B091A754E /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357916EA222D281EDB381B38773F1890 /* ServerTrustPolicy.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42607228EB506CD0B6FA76AEE46DC1E8 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2B85201AB7F8F8B668F3EF9406DB7 /* Result.swift */; };
 		847E24316346E715E21F6848735B9F32 /* Pods-whale-ios-alexanderdejeuUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BE00242C5C0039CF0FB654BE3DD2F /* Pods-whale-ios-alexanderdejeuUITests-dummy.m */; };
-		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A2A5B42C4183245456E5DEE99F255E /* AFError.swift */; };
+		875107F2F7F2302C579927A4435BDBCC /* Pods-whale-ios-alexanderdejeu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B91A49093D0529F71F6CBAF8BBEB9A /* Pods-whale-ios-alexanderdejeu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662DC6E9CF13932986E3394DDD2610B /* AFError.swift */; };
 		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1B4A30511D5C03C083F9EF5FAF2FAB /* NetworkReachabilityManager.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D5360C1B32586A8BA8CA0ACEFE5A3D /* NetworkReachabilityManager.swift */; };
 		A5123C015C967F20045AC8ED6E6EC85F /* Pods-whale-ios-alexanderdejeuTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FABF22335B9293075540F0AEAF098 /* Pods-whale-ios-alexanderdejeuTests-dummy.m */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 965031ABC56F3BA78D64C07DDC40DB92 /* Alamofire-dummy.m */; };
-		AD0E8D5F58B0B824D2631BDA9D541DFE /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5726CE57E8BADDB798EDE8C63AE01F1 /* KeychainSwift-dummy.m */; };
-		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DFD443E542C71A7BE84A39A9201223 /* SessionManager.swift */; };
+		A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF7B8B015F31EC73CD4EE4BD74041F /* Keychain.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F9873683FEF44D0BA89009611C67F7 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7A8C70C4D082D836247F016FBAB8E /* SessionManager.swift */; };
 		B14AFB6847BCFF411043DB97F304F5BE /* Pods-whale-ios-alexanderdejeuUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19A8E91AB039C4B7A9EBCB50AD712B0 /* Pods-whale-ios-alexanderdejeuUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC548D0DF3B3E8A95F021352582E13 /* MultipartFormData.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB357AEE4714C6F68109D4FFB53871B6 /* MultipartFormData.swift */; };
 		BAACCC5E9B06098B8AC2E0865E89C27F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899DE40B5FF2FB31FBD8220466BE5165 /* Validation.swift */; };
-		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EBC12DAF5398806C8F50864E80A56 /* ParameterEncoding.swift */; };
-		C8865DA7BD76026FC9782E04D6D6BA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C01DC172F3838AE5A476BDC39CA0800 /* Response.swift */; };
-		CCBE57237E9F0DBAAF02A5575244F3BE /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64D7153089E96767473D113D88C7372 /* KeychainSwift.swift */; };
-		EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F25203C9EA86B34BA9EA7B5D17D450 /* KeychainSwiftAccessOptions.swift */; };
-		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26835859DC4632912A8E58B2F291CA0D /* Notifications.swift */; };
-		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3EFC247066DD907B492A5FC4222745 /* ResponseSerialization.swift */; };
-		F77CC66D24840D052822605BFEB66E60 /* Pods-whale-ios-alexanderdejeu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647DDEAC78BE77329D26F83D7B42B45 /* Pods-whale-ios-alexanderdejeu-dummy.m */; };
-		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B3A0C6DC7A64DD4AEAE3AF45696FB /* Alamofire.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8172D0753B60382F599FADD0FCDE2BEE /* Validation.swift */; };
+		BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9865E4AFE0ABC0AF421D401D316721FC /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6073AE39D4E5086D31F9B226CA1854 /* ParameterEncoding.swift */; };
+		CA869D5D5B7C11B3AEE3EFAE03D53958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E95B4F4EBAFA2DA0EA4C4F1FCEAE80 /* Response.swift */; };
+		D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A09F9253B6B15F51B9EEACE4AB1260B5 /* KeychainAccess-dummy.m */; };
+		DD4C74E17B7F96F280492A95B6F55955 /* Pods-whale-ios-alexanderdejeu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647DDEAC78BE77329D26F83D7B42B45 /* Pods-whale-ios-alexanderdejeu-dummy.m */; };
+		E8EACF383D5FC840CC04A183FAD043EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800CDC56C9D0537151E9AE8A8E7A8E3A /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF1F176EBDAEEEFA5B8CA7F179845E /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE27FDB12DCC21748D755A3CE5AAB38 /* Alamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19237A660D15806933E6B3629F116549 /* PBXContainerItemProxy */ = {
+		64799AD8B67B93ADB03B1EC72FFBD609 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		2FF58F2F20951E416BA4E137D5B96F4F /* PBXContainerItemProxy */ = {
+		D56B2ED66768B421334293DCEC57CC29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 38ACA430605AFB4229712A18BDDF5086;
-			remoteInfo = KeychainSwift;
+			remoteGlobalIDString = 8905DB6521F8FDC34752B69DEE3FDEB7;
+			remoteInfo = KeychainAccess;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04B7047DB198936156A7E70791427150 /* Pods-whale-ios-alexanderdejeu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whale-ios-alexanderdejeu-acknowledgements.plist"; sourceTree = "<group>"; };
-		05A2A5B42C4183245456E5DEE99F255E /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		07954808C90E8E4082E1551E08D2E232 /* Pods-whale-ios-alexanderdejeuUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeuUITests-frameworks.sh"; sourceTree = "<group>"; };
-		117B3A0C6DC7A64DD4AEAE3AF45696FB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		0E2A7E729BCEAFA7B5E5BFDC0479CEEA /* Pods_whale_ios_alexanderdejeuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeuUITests.framework; path = "Pods-whale-ios-alexanderdejeuUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		132DC43E041BD53281604C8DD2A93A86 /* Pods-whale-ios-alexanderdejeuUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whale-ios-alexanderdejeuUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		14B4466FF9777539E1C60E4B780467C9 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
-		1C01DC172F3838AE5A476BDC39CA0800 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		15E16D9B0513911BB986877CDDC02791 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DF1F176EBDAEEEFA5B8CA7F179845E /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		233617F5903E0D0DCA7CF420FF24512C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26835859DC4632912A8E58B2F291CA0D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		2D8AE87903D2F1581C4D059E7B13B204 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E6903706B9C180274F081A1A3E8190E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		30F43C74A1833220A27DE7AE00407703 /* Pods_whale_ios_alexanderdejeu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeu.framework; path = "Pods-whale-ios-alexanderdejeu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		357916EA222D281EDB381B38773F1890 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		3647DDEAC78BE77329D26F83D7B42B45 /* Pods-whale-ios-alexanderdejeu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whale-ios-alexanderdejeu-dummy.m"; sourceTree = "<group>"; };
+		36EB9228BF9EC6D43AE9E2530C1E1D46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7FB1EA6D6781038B9A61F8B17466FB /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
 		422FA2943EA0CB4401BEA3EFEAC15D80 /* Pods-whale-ios-alexanderdejeuTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeuTests-resources.sh"; sourceTree = "<group>"; };
+		42607228EB506CD0B6FA76AEE46DC1E8 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		471B4CC6F130BB587731CF56913495A3 /* Pods-whale-ios-alexanderdejeuTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whale-ios-alexanderdejeuTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4F14357533AA23C59270B80213F6650B /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift.framework; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		519CFB319C29718F6C55FB4A1C97D3C6 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		491D40843983B6A68E9A112B386B4D6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5028857DE385138675F30AD1100830EB /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
 		524CBB7AECE4DAE8B629B805A01ECAB1 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeu.release.xcconfig"; sourceTree = "<group>"; };
-		567B7119F3669379643DAD6B1E9BADA0 /* Pods_whale_ios_alexanderdejeuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeuTests.framework; path = "Pods-whale-ios-alexanderdejeuTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E4890119018A99C73F0A80D37135BD /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		568EF7D66AD368FCA87EA9D7F6142DCF /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; sourceTree = "<group>"; };
 		62824ACCA29808DF025961DD2B6086B8 /* Pods-whale-ios-alexanderdejeuUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-whale-ios-alexanderdejeuUITests.modulemap"; sourceTree = "<group>"; };
-		66505268AD51F1AA20546D08C6181E02 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		66B035BD7A8AE5F096C11B392F06678E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D4EBC12DAF5398806C8F50864E80A56 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		74CF0E111F978A23FB78B35F2FFC7FEC /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
+		6CC7A8C70C4D082D836247F016FBAB8E /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		746346322379EF979BF51775AF607229 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		79BFC82AE44E28E26AAEE7CD7D4C8B8B /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		7C59FB07EDD8BAB282F755868BAFB0A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E5C72683E328EBE5598F5AE7A0C7729 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		7EA383DFC9230A0D75B241167983555B /* Pods_whale_ios_alexanderdejeuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeuUITests.framework; path = "Pods-whale-ios-alexanderdejeuUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FCF0E963910E9009F743D0ACAA6257C /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
-		833A9E68656C23731F72EA50E57D3EF8 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		800CDC56C9D0537151E9AE8A8E7A8E3A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		8172D0753B60382F599FADD0FCDE2BEE /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		860F60D2046448A81448C8F968DE0A21 /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B9E7E3C2F453B5ABA916DA41407502 /* Pods-whale-ios-alexanderdejeuUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-whale-ios-alexanderdejeuUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		871484E3C769294A2EE9ADB280A1623B /* Pods_whale_ios_alexanderdejeu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeu.framework; path = "Pods-whale-ios-alexanderdejeu.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		899DE40B5FF2FB31FBD8220466BE5165 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		8D813C4E94028A296D620808478B031D /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		88D5360C1B32586A8BA8CA0ACEFE5A3D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		8DE27FDB12DCC21748D755A3CE5AAB38 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		8F7FABF22335B9293075540F0AEAF098 /* Pods-whale-ios-alexanderdejeuTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whale-ios-alexanderdejeuTests-dummy.m"; sourceTree = "<group>"; };
+		91210CE3AC723EAFD2A7D121A1805946 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9643A3FB7194808C20356884107F5C62 /* Pods-whale-ios-alexanderdejeu-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeu-resources.sh"; sourceTree = "<group>"; };
-		965031ABC56F3BA78D64C07DDC40DB92 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		9B093D44DCE87C634CB7B13642E8F257 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
-		9F1B4A30511D5C03C083F9EF5FAF2FAB /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		9865E4AFE0ABC0AF421D401D316721FC /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		99914E44E5C199A8AC4C44F3A7D85451 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		A09F9253B6B15F51B9EEACE4AB1260B5 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
 		A25E209E0608B7DC8D44151A219E5DE0 /* Pods-whale-ios-alexanderdejeu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whale-ios-alexanderdejeu-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AAE75D0097479ED8D5E8D3DD8C880F84 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BF7B8B015F31EC73CD4EE4BD74041F /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
 		AB9EF242CF7EB1A6FA3D1625C04D6CDB /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B5FC548D0DF3B3E8A95F021352582E13 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		B6DFD443E542C71A7BE84A39A9201223 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		ACE90956A587377C7F38585409DE4977 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		AF01E9BB397D4B82CBC40F0F521B1E7C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		B7B91A49093D0529F71F6CBAF8BBEB9A /* Pods-whale-ios-alexanderdejeu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whale-ios-alexanderdejeu-umbrella.h"; sourceTree = "<group>"; };
+		B83701086534F50D8FB953F99B9B1CAF /* Pods_whale_ios_alexanderdejeuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_whale_ios_alexanderdejeuTests.framework; path = "Pods-whale-ios-alexanderdejeuTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2BE00242C5C0039CF0FB654BE3DD2F /* Pods-whale-ios-alexanderdejeuUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-whale-ios-alexanderdejeuUITests-dummy.m"; sourceTree = "<group>"; };
-		BD3EFC247066DD907B492A5FC4222745 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		C35B17DB12B0A7E3E35E6C7B091A754E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD0ED52FFE0CBDBF6999357FA628FAEC /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		D19A8E91AB039C4B7A9EBCB50AD712B0 /* Pods-whale-ios-alexanderdejeuUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whale-ios-alexanderdejeuUITests-umbrella.h"; sourceTree = "<group>"; };
-		D2DAA2739C1D4B4B2D0BF9DCE1B3C94D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		D2F25203C9EA86B34BA9EA7B5D17D450 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
 		D47C3AC922A9402BD21861E0449137BA /* Pods-whale-ios-alexanderdejeuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeuTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D64D7153089E96767473D113D88C7372 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		D662DC6E9CF13932986E3394DDD2610B /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		D6BD40B71FFDAEBCC6E792461B2A6B01 /* Pods-whale-ios-alexanderdejeu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-whale-ios-alexanderdejeu.modulemap"; sourceTree = "<group>"; };
-		DEF66B3929FC6B2953F5A24EB4F3E01C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6D2B85201AB7F8F8B668F3EF9406DB7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		E0331A719CC0FEE52BEE227AF0299FC6 /* Pods-whale-ios-alexanderdejeuUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeuUITests-resources.sh"; sourceTree = "<group>"; };
 		E1D5D9960E5CC962CE4B317CC83F89C5 /* Pods-whale-ios-alexanderdejeu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeu.debug.xcconfig"; sourceTree = "<group>"; };
 		E4173365E584043E5AA5DF295F8EA5B5 /* Pods-whale-ios-alexanderdejeuTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-whale-ios-alexanderdejeuTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E6E95B4F4EBAFA2DA0EA4C4F1FCEAE80 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		E9501DBFEA37FFD47F5EE68FCC61A7E7 /* Pods-whale-ios-alexanderdejeuTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeuTests-frameworks.sh"; sourceTree = "<group>"; };
-		EAEB3D813E4CCC816427B78DFB825A96 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		EB48DEEB04FBFD23D15D8D48091D843F /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
 		ED63B8897854D880E4A015F58CF3BD25 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-whale-ios-alexanderdejeuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF6073AE39D4E5086D31F9B226CA1854 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		F21C4D682FC4C6D74F6BCBE9F7758B63 /* Pods-whale-ios-alexanderdejeuTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-whale-ios-alexanderdejeuTests-umbrella.h"; sourceTree = "<group>"; };
-		F5726CE57E8BADDB798EDE8C63AE01F1 /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		F72F8B5EBE8AB3603E84B31027837ED4 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F6F9873683FEF44D0BA89009611C67F7 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		FB357AEE4714C6F68109D4FFB53871B6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		FBF04BDA6B7E76C99AD301C1C9CB18C7 /* Pods-whale-ios-alexanderdejeu-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-whale-ios-alexanderdejeu-frameworks.sh"; sourceTree = "<group>"; };
-		FE23814F734AECF1CFD8FB813326BB09 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		FEB3A2B2B4D5F4237D9BEFCA803FE254 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		FEC31D3D1F1335374D3E3CC1D5568BF3 /* Pods-whale-ios-alexanderdejeuTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-whale-ios-alexanderdejeuTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4644C6D96A73768B60CF66E22FD3B879 /* Frameworks */ = {
+		08CC9414E19B77D37E6B8F8BE7E9FA9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8865DA7BD76026FC9782E04D6D6BA76 /* Foundation.framework in Frameworks */,
+				CA869D5D5B7C11B3AEE3EFAE03D53958 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B26531709F9E3898378881AD146D444 /* Frameworks */ = {
+		2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				621F947FCB589CF8716C0B1D2513B369 /* Foundation.framework in Frameworks */,
+				E8EACF383D5FC840CC04A183FAD043EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,20 +173,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2FD9616AD7B0848287909D05099F42C7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D2DAA2739C1D4B4B2D0BF9DCE1B3C94D /* Alamofire.modulemap */,
-				8D813C4E94028A296D620808478B031D /* Alamofire.xcconfig */,
-				965031ABC56F3BA78D64C07DDC40DB92 /* Alamofire-dummy.m */,
-				F72F8B5EBE8AB3603E84B31027837ED4 /* Alamofire-prefix.pch */,
-				CD0ED52FFE0CBDBF6999357FA628FAEC /* Alamofire-umbrella.h */,
-				2D8AE87903D2F1581C4D059E7B13B204 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
 		365C845AE618FEA338C8B068716A3AF5 /* Pods-whale-ios-alexanderdejeuUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,18 +191,18 @@
 			path = "Target Support Files/Pods-whale-ios-alexanderdejeuUITests";
 			sourceTree = "<group>";
 		};
-		6672E12E763A5E0AEB80C89D98D5F36F /* Support Files */ = {
+		68D210BCCE3456921562C47EF78D3769 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DEF66B3929FC6B2953F5A24EB4F3E01C /* Info.plist */,
-				9B093D44DCE87C634CB7B13642E8F257 /* KeychainSwift.modulemap */,
-				74CF0E111F978A23FB78B35F2FFC7FEC /* KeychainSwift.xcconfig */,
-				F5726CE57E8BADDB798EDE8C63AE01F1 /* KeychainSwift-dummy.m */,
-				14B4466FF9777539E1C60E4B780467C9 /* KeychainSwift-prefix.pch */,
-				7FCF0E963910E9009F743D0ACAA6257C /* KeychainSwift-umbrella.h */,
+				491D40843983B6A68E9A112B386B4D6A /* Info.plist */,
+				3A7FB1EA6D6781038B9A61F8B17466FB /* KeychainAccess.modulemap */,
+				5028857DE385138675F30AD1100830EB /* KeychainAccess.xcconfig */,
+				A09F9253B6B15F51B9EEACE4AB1260B5 /* KeychainAccess-dummy.m */,
+				EB48DEEB04FBFD23D15D8D48091D843F /* KeychainAccess-prefix.pch */,
+				9865E4AFE0ABC0AF421D401D316721FC /* KeychainAccess-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/KeychainSwift";
+			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -236,10 +218,36 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D0CB4B58A75473E23203DFE6CACFF6D3 /* Pods */,
-				9FA2A465008A3B159C249FC590366C8F /* Products */,
+				C7B4A5BA7C83670FBD4289FE5F5DF780 /* Pods */,
+				FA12CBA7F2CBE06328D6EE2DBF65CA0C /* Products */,
 				DBAEC5301BDD208E7C69EB9C6844C1FD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8C06A2A24BC28AB6801DEF4A48A16FB6 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				D662DC6E9CF13932986E3394DDD2610B /* AFError.swift */,
+				8DE27FDB12DCC21748D755A3CE5AAB38 /* Alamofire.swift */,
+				C35B17DB12B0A7E3E35E6C7B091A754E /* DispatchQueue+Alamofire.swift */,
+				FB357AEE4714C6F68109D4FFB53871B6 /* MultipartFormData.swift */,
+				88D5360C1B32586A8BA8CA0ACEFE5A3D /* NetworkReachabilityManager.swift */,
+				800CDC56C9D0537151E9AE8A8E7A8E3A /* Notifications.swift */,
+				EF6073AE39D4E5086D31F9B226CA1854 /* ParameterEncoding.swift */,
+				746346322379EF979BF51775AF607229 /* Request.swift */,
+				E6E95B4F4EBAFA2DA0EA4C4F1FCEAE80 /* Response.swift */,
+				16DF1F176EBDAEEEFA5B8CA7F179845E /* ResponseSerialization.swift */,
+				D6D2B85201AB7F8F8B668F3EF9406DB7 /* Result.swift */,
+				357916EA222D281EDB381B38773F1890 /* ServerTrustPolicy.swift */,
+				42607228EB506CD0B6FA76AEE46DC1E8 /* SessionDelegate.swift */,
+				6CC7A8C70C4D082D836247F016FBAB8E /* SessionManager.swift */,
+				91210CE3AC723EAFD2A7D121A1805946 /* TaskDelegate.swift */,
+				53E4890119018A99C73F0A80D37135BD /* Timeline.swift */,
+				8172D0753B60382F599FADD0FCDE2BEE /* Validation.swift */,
+				D57E0F5F4AF98E9CAF5D69FE17A23135 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		9493923B200ACD0D01CB2B51B93F96CB /* Pods-whale-ios-alexanderdejeuTests */ = {
@@ -278,44 +286,6 @@
 			path = "Target Support Files/Pods-whale-ios-alexanderdejeu";
 			sourceTree = "<group>";
 		};
-		9FA2A465008A3B159C249FC590366C8F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AAE75D0097479ED8D5E8D3DD8C880F84 /* Alamofire.framework */,
-				4F14357533AA23C59270B80213F6650B /* KeychainSwift.framework */,
-				871484E3C769294A2EE9ADB280A1623B /* Pods_whale_ios_alexanderdejeu.framework */,
-				567B7119F3669379643DAD6B1E9BADA0 /* Pods_whale_ios_alexanderdejeuTests.framework */,
-				7EA383DFC9230A0D75B241167983555B /* Pods_whale_ios_alexanderdejeuUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B6210533C3F5EE91FC4F7C33370657D3 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				05A2A5B42C4183245456E5DEE99F255E /* AFError.swift */,
-				117B3A0C6DC7A64DD4AEAE3AF45696FB /* Alamofire.swift */,
-				FE23814F734AECF1CFD8FB813326BB09 /* DispatchQueue+Alamofire.swift */,
-				B5FC548D0DF3B3E8A95F021352582E13 /* MultipartFormData.swift */,
-				9F1B4A30511D5C03C083F9EF5FAF2FAB /* NetworkReachabilityManager.swift */,
-				26835859DC4632912A8E58B2F291CA0D /* Notifications.swift */,
-				6D4EBC12DAF5398806C8F50864E80A56 /* ParameterEncoding.swift */,
-				519CFB319C29718F6C55FB4A1C97D3C6 /* Request.swift */,
-				1C01DC172F3838AE5A476BDC39CA0800 /* Response.swift */,
-				BD3EFC247066DD907B492A5FC4222745 /* ResponseSerialization.swift */,
-				2E6903706B9C180274F081A1A3E8190E /* Result.swift */,
-				833A9E68656C23731F72EA50E57D3EF8 /* ServerTrustPolicy.swift */,
-				FEB3A2B2B4D5F4237D9BEFCA803FE254 /* SessionDelegate.swift */,
-				B6DFD443E542C71A7BE84A39A9201223 /* SessionManager.swift */,
-				66505268AD51F1AA20546D08C6181E02 /* TaskDelegate.swift */,
-				7E5C72683E328EBE5598F5AE7A0C7729 /* Timeline.swift */,
-				899DE40B5FF2FB31FBD8220466BE5165 /* Validation.swift */,
-				2FD9616AD7B0848287909D05099F42C7 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,13 +294,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D0CB4B58A75473E23203DFE6CACFF6D3 /* Pods */ = {
+		C7B4A5BA7C83670FBD4289FE5F5DF780 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B6210533C3F5EE91FC4F7C33370657D3 /* Alamofire */,
-				DFF399C328F2682586074956DC2D9F85 /* KeychainSwift */,
+				8C06A2A24BC28AB6801DEF4A48A16FB6 /* Alamofire */,
+				D313C4FE41700DC8AB28EDD8A5CCAA93 /* KeychainAccess */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D313C4FE41700DC8AB28EDD8A5CCAA93 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				A5BF7B8B015F31EC73CD4EE4BD74041F /* Keychain.swift */,
+				68D210BCCE3456921562C47EF78D3769 /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		D57E0F5F4AF98E9CAF5D69FE17A23135 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BFC82AE44E28E26AAEE7CD7D4C8B8B /* Alamofire.modulemap */,
+				99914E44E5C199A8AC4C44F3A7D85451 /* Alamofire.xcconfig */,
+				F6F9873683FEF44D0BA89009611C67F7 /* Alamofire-dummy.m */,
+				AF01E9BB397D4B82CBC40F0F521B1E7C /* Alamofire-prefix.pch */,
+				ACE90956A587377C7F38585409DE4977 /* Alamofire-umbrella.h */,
+				36EB9228BF9EC6D43AE9E2530C1E1D46 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		DBAEC5301BDD208E7C69EB9C6844C1FD /* Targets Support Files */ = {
@@ -343,26 +337,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DFF399C328F2682586074956DC2D9F85 /* KeychainSwift */ = {
+		FA12CBA7F2CBE06328D6EE2DBF65CA0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D64D7153089E96767473D113D88C7372 /* KeychainSwift.swift */,
-				D2F25203C9EA86B34BA9EA7B5D17D450 /* KeychainSwiftAccessOptions.swift */,
-				EAEB3D813E4CCC816427B78DFB825A96 /* TegKeychainConstants.swift */,
-				6672E12E763A5E0AEB80C89D98D5F36F /* Support Files */,
+				15E16D9B0513911BB986877CDDC02791 /* Alamofire.framework */,
+				860F60D2046448A81448C8F968DE0A21 /* KeychainAccess.framework */,
+				30F43C74A1833220A27DE7AE00407703 /* Pods_whale_ios_alexanderdejeu.framework */,
+				B83701086534F50D8FB953F99B9B1CAF /* Pods_whale_ios_alexanderdejeuTests.framework */,
+				0E2A7E729BCEAFA7B5E5BFDC0479CEEA /* Pods_whale_ios_alexanderdejeuUITests.framework */,
 			);
-			name = KeychainSwift;
-			path = KeychainSwift;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B9E2CC05BB511AE72D8AF942B9C382C /* Headers */ = {
+		570F7A0256C22DD71E9DD68DB69B2415 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281E568EF3C55BDDDC792F1345AC07E6 /* Pods-whale-ios-alexanderdejeu-umbrella.h in Headers */,
+				875107F2F7F2302C579927A4435BDBCC /* Pods-whale-ios-alexanderdejeu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DE0E803396B824DE9F75CA3683CEC3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDA750A5542A5D826A35B1BE6A69574A /* KeychainAccess-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,14 +392,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDCCA8DB9A9A2B78257AAEB7F44C85C3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				08AA89D020B5C4FD74D1529A3E972AB9 /* KeychainSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -415,24 +409,7 @@
 			);
 			name = "Pods-whale-ios-alexanderdejeuTests";
 			productName = "Pods-whale-ios-alexanderdejeuTests";
-			productReference = 567B7119F3669379643DAD6B1E9BADA0 /* Pods_whale_ios_alexanderdejeuTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		38ACA430605AFB4229712A18BDDF5086 /* KeychainSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 16C5D5A8E6CDB4211B0732F819F55A47 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
-			buildPhases = (
-				BA64D531146693E66BF1C1CEE1D81BC5 /* Sources */,
-				4644C6D96A73768B60CF66E22FD3B879 /* Frameworks */,
-				FDCCA8DB9A9A2B78257AAEB7F44C85C3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KeychainSwift;
-			productName = KeychainSwift;
-			productReference = 4F14357533AA23C59270B80213F6650B /* KeychainSwift.framework */;
+			productReference = B83701086534F50D8FB953F99B9B1CAF /* Pods_whale_ios_alexanderdejeuTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64D0DBB2DE451F879986CF944811217D /* Pods-whale-ios-alexanderdejeuUITests */ = {
@@ -449,7 +426,7 @@
 			);
 			name = "Pods-whale-ios-alexanderdejeuUITests";
 			productName = "Pods-whale-ios-alexanderdejeuUITests";
-			productReference = 7EA383DFC9230A0D75B241167983555B /* Pods_whale_ios_alexanderdejeuUITests.framework */;
+			productReference = 0E2A7E729BCEAFA7B5E5BFDC0479CEEA /* Pods_whale_ios_alexanderdejeuUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -466,26 +443,43 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = AAE75D0097479ED8D5E8D3DD8C880F84 /* Alamofire.framework */;
+			productReference = 15E16D9B0513911BB986877CDDC02791 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E8A0EBEE23FBA0E624F714B34901DBCB /* Pods-whale-ios-alexanderdejeu */ = {
+		8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 165874A4CE972FCACFFD5C7F56493F43 /* Build configuration list for PBXNativeTarget "Pods-whale-ios-alexanderdejeu" */;
+			buildConfigurationList = 9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
 			buildPhases = (
-				C44998F72A3B80531908F4FE91C45C32 /* Sources */,
-				7B26531709F9E3898378881AD146D444 /* Frameworks */,
-				1B9E2CC05BB511AE72D8AF942B9C382C /* Headers */,
+				D26A24617ECAE11F29337DC26BE0E14F /* Sources */,
+				2DDC844C06D46A3907C42C9964BC7434 /* Frameworks */,
+				93DE0E803396B824DE9F75CA3683CEC3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				80CA38518DF62EED4F98FCCF0CA667ED /* PBXTargetDependency */,
-				35E38B05BCABB486F3D345AFB4BCB646 /* PBXTargetDependency */,
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = 860F60D2046448A81448C8F968DE0A21 /* KeychainAccess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E36CE8289F560D40C2F128A0151BA463 /* Pods-whale-ios-alexanderdejeu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5392228372709E9473CD349FEF504125 /* Build configuration list for PBXNativeTarget "Pods-whale-ios-alexanderdejeu" */;
+			buildPhases = (
+				42ED59807A7C795EA8806D1E6D44FD73 /* Sources */,
+				08CC9414E19B77D37E6B8F8BE7E9FA9A /* Frameworks */,
+				570F7A0256C22DD71E9DD68DB69B2415 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9965ED4D50090ACCFE56C3503F526E40 /* PBXTargetDependency */,
+				15EACBF2F1D6AA87EED3AF67B65FC92F /* PBXTargetDependency */,
 			);
 			name = "Pods-whale-ios-alexanderdejeu";
 			productName = "Pods-whale-ios-alexanderdejeu";
-			productReference = 871484E3C769294A2EE9ADB280A1623B /* Pods_whale_ios_alexanderdejeu.framework */;
+			productReference = 30F43C74A1833220A27DE7AE00407703 /* Pods_whale_ios_alexanderdejeu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -505,13 +499,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9FA2A465008A3B159C249FC590366C8F /* Products */;
+			productRefGroup = FA12CBA7F2CBE06328D6EE2DBF65CA0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
-				38ACA430605AFB4229712A18BDDF5086 /* KeychainSwift */,
-				E8A0EBEE23FBA0E624F714B34901DBCB /* Pods-whale-ios-alexanderdejeu */,
+				8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */,
+				E36CE8289F560D40C2F128A0151BA463 /* Pods-whale-ios-alexanderdejeu */,
 				0AE9822D10C97F7277015109B066AEF2 /* Pods-whale-ios-alexanderdejeuTests */,
 				64D0DBB2DE451F879986CF944811217D /* Pods-whale-ios-alexanderdejeuUITests */,
 			);
@@ -544,6 +538,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		42ED59807A7C795EA8806D1E6D44FD73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4C74E17B7F96F280492A95B6F55955 /* Pods-whale-ios-alexanderdejeu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5811358DAB7BF6C2A085427BD74E7060 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -560,46 +562,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA64D531146693E66BF1C1CEE1D81BC5 /* Sources */ = {
+		D26A24617ECAE11F29337DC26BE0E14F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0E8D5F58B0B824D2631BDA9D541DFE /* KeychainSwift-dummy.m in Sources */,
-				CCBE57237E9F0DBAAF02A5575244F3BE /* KeychainSwift.swift in Sources */,
-				EBA8B955A11296BD7AA307752FE82ED4 /* KeychainSwiftAccessOptions.swift in Sources */,
-				7C0F17488B3552EAAFC074CFC4491DD5 /* TegKeychainConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C44998F72A3B80531908F4FE91C45C32 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F77CC66D24840D052822605BFEB66E60 /* Pods-whale-ios-alexanderdejeu-dummy.m in Sources */,
+				A967960EE4C1C1AF8A3FC3555BABDC58 /* Keychain.swift in Sources */,
+				D823270043210DD356225D7700FAF3E4 /* KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35E38B05BCABB486F3D345AFB4BCB646 /* PBXTargetDependency */ = {
+		15EACBF2F1D6AA87EED3AF67B65FC92F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KeychainSwift;
-			target = 38ACA430605AFB4229712A18BDDF5086 /* KeychainSwift */;
-			targetProxy = 2FF58F2F20951E416BA4E137D5B96F4F /* PBXContainerItemProxy */;
+			name = KeychainAccess;
+			target = 8905DB6521F8FDC34752B69DEE3FDEB7 /* KeychainAccess */;
+			targetProxy = D56B2ED66768B421334293DCEC57CC29 /* PBXContainerItemProxy */;
 		};
-		80CA38518DF62EED4F98FCCF0CA667ED /* PBXTargetDependency */ = {
+		9965ED4D50090ACCFE56C3503F526E40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
-			targetProxy = 19237A660D15806933E6B3629F116549 /* PBXContainerItemProxy */;
+			targetProxy = 64799AD8B67B93ADB03B1EC72FFBD609 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D813C4E94028A296D620808478B031D /* Alamofire.xcconfig */;
+			baseConfigurationReference = 99914E44E5C199A8AC4C44F3A7D85451 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -620,38 +612,6 @@
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0D0A3CA59FFA5283D94B00E4E39C8AC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74CF0E111F978A23FB78B35F2FFC7FEC /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = KeychainSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -740,42 +700,7 @@
 			};
 			name = Debug;
 		};
-		631EB096F6AE389532C3A8004C06AB2B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED63B8897854D880E4A015F58CF3BD25 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_whale_ios_alexanderdejeuUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		63CC8A9E8674E03B79D1DABAB01785A7 /* Debug */ = {
+		2B592368BE9075BF7C2D419659157CFF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1D5D9960E5CC962CE4B317CC83F89C5 /* Pods-whale-ios-alexanderdejeu.debug.xcconfig */;
 			buildSettings = {
@@ -811,9 +736,9 @@
 			};
 			name = Debug;
 		};
-		6F8B8E4905636FBC46D6E71C970E1960 /* Debug */ = {
+		3DF179FB9FD49558E5A05DDE95B2AD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74CF0E111F978A23FB78B35F2FFC7FEC /* KeychainSwift.xcconfig */;
+			baseConfigurationReference = 5028857DE385138675F30AD1100830EB /* KeychainAccess.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -826,14 +751,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainAccess;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -843,6 +768,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		631EB096F6AE389532C3A8004C06AB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED63B8897854D880E4A015F58CF3BD25 /* Pods-whale-ios-alexanderdejeuUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_whale_ios_alexanderdejeuUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7A37368D03EE9F59EEA57FF60CD462FE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -879,6 +839,73 @@
 			};
 			name = Debug;
 		};
+		83A2742AC32BC2E3AEB154627E10AF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5028857DE385138675F30AD1100830EB /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8822126A8DD2764BBD6C34DE3D5E3D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524CBB7AECE4DAE8B629B805A01ECAB1 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_whale_ios_alexanderdejeu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		94A84A0391D6A056F9F94E122BB31B90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D47C3AC922A9402BD21861E0449137BA /* Pods-whale-ios-alexanderdejeuTests.debug.xcconfig */;
@@ -913,41 +940,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D4ECCE73B3771D654B233BA0A9713C78 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 524CBB7AECE4DAE8B629B805A01ECAB1 /* Pods-whale-ios-alexanderdejeu.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-whale-ios-alexanderdejeu/Pods-whale-ios-alexanderdejeu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_whale_ios_alexanderdejeu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -991,7 +983,7 @@
 		};
 		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D813C4E94028A296D620808478B031D /* Alamofire.xcconfig */;
+			baseConfigurationReference = 99914E44E5C199A8AC4C44F3A7D85451 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1034,24 +1026,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		165874A4CE972FCACFFD5C7F56493F43 /* Build configuration list for PBXNativeTarget "Pods-whale-ios-alexanderdejeu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63CC8A9E8674E03B79D1DABAB01785A7 /* Debug */,
-				D4ECCE73B3771D654B233BA0A9713C78 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		16C5D5A8E6CDB4211B0732F819F55A47 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F8B8E4905636FBC46D6E71C970E1960 /* Debug */,
-				0D0A3CA59FFA5283D94B00E4E39C8AC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1BAD4464C39CEEB058E439EFB7BE2817 /* Build configuration list for PBXNativeTarget "Pods-whale-ios-alexanderdejeuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1075,6 +1049,24 @@
 			buildConfigurations = (
 				F383079BFBF927813EA3613CFB679FDE /* Debug */,
 				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5392228372709E9473CD349FEF504125 /* Build configuration list for PBXNativeTarget "Pods-whale-ios-alexanderdejeu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B592368BE9075BF7C2D419659157CFF /* Debug */,
+				8822126A8DD2764BBD6C34DE3D5E3D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FA048BBEA093CDB3F69C5B36929A5AF /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF179FB9FD49558E5A05DDE95B2AD94 /* Debug */,
+				83A2742AC32BC2E3AEB154627E10AF73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

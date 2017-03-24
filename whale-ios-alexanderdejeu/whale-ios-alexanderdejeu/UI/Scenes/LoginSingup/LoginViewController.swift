@@ -23,10 +23,17 @@ class LoginViewController: UIViewController {
   // MARK: - IBActions
   @IBAction func loginButtonPressed(sender: UIButton){
     let whaleAPI = WhaleAPI()
-    if (whaleAPI.loginUser(email: emailTextField.text!, password: passwordTextField.text!) != nil){
-      self.performSegue(withIdentifier: "SegueFromLoginToHome", sender: nil)
+    whaleAPI.loginUser(email: emailTextField.text!, password: passwordTextField.text!) {
+      response, error in
+      if error == nil{
+        print("Need to save to keychain!")
+        self.performSegue(withIdentifier: "SegueFromLoginToHome", sender: nil)
+      }
+      else{
+        print("prob should give the user some sort of warning")
+      }
+     
     }
-    print("No good login - yikes")
   }
   
   // MARK: - Navigation

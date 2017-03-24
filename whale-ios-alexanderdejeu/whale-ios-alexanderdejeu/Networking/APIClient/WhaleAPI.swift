@@ -33,11 +33,21 @@ class WhaleAPI {
   
   let baseURL = URL(string: "https://whale2-elixir.herokuapp.com/api/v1")
   
-  func loginUser(email : String, password : String) -> User?{
+  func loginUser(email : String, password : String, completionHandler : @escaping (NSDictionary?, Error?) -> ()) {
+    makeLoginUserCall(email: email, password: password, completionHandler: completionHandler)
+  }
+  
+  func makeLoginUserCall(email : String, password : String,  completionHandler: @escaping (NSDictionary?, Error?) -> ()){
     var loginParams : [String : Any] = [:]
     loginParams = ["email" : email, "password" : password]
-    Alamofire.request("https://whale2-elixir.herokuapp.com/api/v1/sessions", method: .post, parameters : loginParams).response { response in
+    Alamofire.request("https://whale2-elixir.herokuapp.com/api/v1/sessions", method: .post, parameters : loginParams).responseJSON { response in
       
+      switch response.result{
+      case .success(let value):
+        completionHandler(value as? NSDictionary, nil)
+      case .failure(let error):
+        completionHandler(nil, error)
+      }
       print("Request: \(response.request)")
       print("Response: \(response.response)")
       print("Error: \(response.error)")
@@ -45,10 +55,9 @@ class WhaleAPI {
       if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
         print("Data: \(utf8Text)")
       }
-      
-      return
-      
-    }
-    return User()
+      else{
+        
+      }
+    }.resume()
   }
 }
