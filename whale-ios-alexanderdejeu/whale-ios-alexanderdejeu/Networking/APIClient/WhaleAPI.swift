@@ -33,31 +33,28 @@ class WhaleAPI {
   
   let baseURL = URL(string: "https://whale2-elixir.herokuapp.com/api/v1")
   
-  func loginUser(email : String, password : String, completionHandler : @escaping (NSDictionary?, Error?) -> ()) {
+  func loginUser(email : String, password : String, completionHandler : @escaping (NSDictionary?, Error?, [String: Any]?) -> ()) {
     makeLoginUserCall(email: email, password: password, completionHandler: completionHandler)
   }
   
-  func makeLoginUserCall(email : String, password : String,  completionHandler: @escaping (NSDictionary?, Error?) -> ()){
+  func makeLoginUserCall(email : String, password : String,  completionHandler: @escaping (NSDictionary?, Error?, [String: Any]?) -> ()){
     var loginParams : [String : Any] = [:]
     loginParams = ["email" : email, "password" : password]
     Alamofire.request("https://whale2-elixir.herokuapp.com/api/v1/sessions", method: .post, parameters : loginParams).responseJSON { response in
       
-      switch response.result{
+      print("Response: \(response.response)")
+//      print("Get that good good header \(response.response?.value(forKeyPath: "Authorization"))")
+      
+      switch response.result {
       case .success(let value):
-        completionHandler(value as? NSDictionary, nil)
+        completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
       case .failure(let error):
-        completionHandler(nil, error)
+        completionHandler(nil, error, nil)
       }
       print("Request: \(response.request)")
-      print("Response: \(response.response)")
+     
       print("Error: \(response.error)")
       
-      if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
-        print("Data: \(utf8Text)")
-      }
-      else{
-        
-      }
     }.resume()
   }
 }

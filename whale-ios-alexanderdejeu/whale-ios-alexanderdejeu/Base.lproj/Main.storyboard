@@ -12,7 +12,7 @@
         <!--Login View Controller-->
         <scene sceneID="yMS-dV-zoc">
             <objects>
-                <viewController id="2Gm-tE-AGU" customClass="LoginViewController" customModule="whale_ios_alexanderdejeu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="2Gm-tE-AGU" customClass="LoginViewController" customModule="whale_ios_alexanderdejeu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yhz-Pq-j0R"/>
                         <viewControllerLayoutGuide type="bottom" id="Jtb-0m-Qcy"/>
@@ -105,7 +105,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="L0t-c3-pVm">
             <objects>
-                <tabBarController id="HGg-w5-rRu" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainTabBarController" id="HGg-w5-rRu" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="7Eh-ro-Td2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

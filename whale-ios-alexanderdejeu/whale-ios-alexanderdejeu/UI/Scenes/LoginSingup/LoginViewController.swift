@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import KeychainAccess
 
 class LoginViewController: UIViewController {
   
@@ -24,9 +25,21 @@ class LoginViewController: UIViewController {
   @IBAction func loginButtonPressed(sender: UIButton){
     let whaleAPI = WhaleAPI()
     whaleAPI.loginUser(email: emailTextField.text!, password: passwordTextField.text!) {
-      response, error in
+      responseJSON, error, headers  in
       if error == nil{
         print("Need to save to keychain!")
+        print("The headerKush is!! \(headers?["Authorization"]!)")
+        
+        let keychain = Keychain(service: "whaleAPI")
+        do {
+          
+          try keychain.set("\(headers?["Authorization"]!)", key: "auth_token")
+        }
+        catch let error {
+          print(error)
+        }
+        
+        
         self.performSegue(withIdentifier: "SegueFromLoginToHome", sender: nil)
       }
       else{
