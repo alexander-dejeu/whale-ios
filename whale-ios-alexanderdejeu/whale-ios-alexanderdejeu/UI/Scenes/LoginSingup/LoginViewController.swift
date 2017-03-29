@@ -32,7 +32,6 @@ class LoginViewController: UIViewController {
         
         let keychain = Keychain(service: "whaleAPI")
         do {
-          
           try keychain.set("\(headers?["Authorization"]!)", key: "auth_token")
         }
         catch let error {

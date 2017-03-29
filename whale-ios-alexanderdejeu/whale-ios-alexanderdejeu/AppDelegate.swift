@@ -8,6 +8,7 @@
 
 import UIKit
 import KeychainAccess
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

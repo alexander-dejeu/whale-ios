@@ -12,17 +12,12 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WhaleVideoView" customModule="whale_ios_alexanderdejeu" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="370" height="627"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-8i-y1d">
-                    <rect key="frame" x="16" y="72" width="343" height="535"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-8i-y1d">
+                    <rect key="frame" x="0.0" y="0.0" width="370" height="627"/>
                     <subviews>
-                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="86x-iu-cOU">
-                            <rect key="frame" x="0.0" y="533" width="343" height="2"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        </progressView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0:05" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Guh-Md-EK5">
                             <rect key="frame" x="293" y="8" width="36" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -31,12 +26,27 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="86x-iu-cOU">
+                            <rect key="frame" x="0.0" y="625" width="370" height="2"/>
+                        </progressView>
                     </subviews>
                     <color key="backgroundColor" red="1" green="1" blue="0.8221689356435643" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="86x-iu-cOU" firstAttribute="leading" secondItem="Eml-8i-y1d" secondAttribute="leading" id="1ci-JS-xh2"/>
+                        <constraint firstAttribute="bottom" secondItem="86x-iu-cOU" secondAttribute="bottom" id="M4p-Fo-VQI"/>
+                        <constraint firstAttribute="trailing" secondItem="86x-iu-cOU" secondAttribute="trailing" id="jUt-Lw-Be5"/>
+                    </constraints>
                 </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <point key="canvasLocation" x="33.5" y="53.5"/>
+            <constraints>
+                <constraint firstItem="Eml-8i-y1d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="38O-aI-Sjl"/>
+                <constraint firstAttribute="bottom" secondItem="Eml-8i-y1d" secondAttribute="bottom" id="Zen-xC-cOC"/>
+                <constraint firstAttribute="trailing" secondItem="Eml-8i-y1d" secondAttribute="trailing" id="dI9-XN-q8x"/>
+                <constraint firstItem="Eml-8i-y1d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="m8b-LF-39d"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31" y="33.5"/>
         </view>
     </objects>
 </document>

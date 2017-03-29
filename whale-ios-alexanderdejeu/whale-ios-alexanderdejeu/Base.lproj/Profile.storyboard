@@ -20,7 +20,18 @@
                     <view key="view" contentMode="scaleToFill" id="FpU-HG-gLM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGA-g0-FlT" customClass="ProfileHeader" customModule="whale_ios_alexanderdejeu" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="226"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cGA-g0-FlT" firstAttribute="top" secondItem="FpU-HG-gLM" secondAttribute="top" id="Pjb-Nz-Hfe"/>
+                            <constraint firstAttribute="trailing" secondItem="cGA-g0-FlT" secondAttribute="trailing" id="bwA-7R-Gjf"/>
+                            <constraint firstItem="cGA-g0-FlT" firstAttribute="leading" secondItem="FpU-HG-gLM" secondAttribute="leading" id="m3L-fe-cUg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="profile" selectedImage="profileSelected" id="h6v-Ht-DOc"/>
                 </viewController>

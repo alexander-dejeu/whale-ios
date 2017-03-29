@@ -12,7 +12,7 @@
         <!--Activity-->
         <scene sceneID="s51-tp-nsJ">
             <objects>
-                <viewController id="a5T-gB-AGw" sceneMemberID="viewController">
+                <viewController id="a5T-gB-AGw" customClass="ActivityViewController" customModule="whale_ios_alexanderdejeu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Y5t-5n-Y4h"/>
                         <viewControllerLayoutGuide type="bottom" id="XVR-AY-Ktt"/>
