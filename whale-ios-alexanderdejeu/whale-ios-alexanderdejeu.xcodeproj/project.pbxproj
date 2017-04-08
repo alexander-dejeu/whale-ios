@@ -11,6 +11,7 @@
 		68244D959B2E5B345BF3CB30 /* Pods_whale_ios_alexanderdejeu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7DA94B8E19C3C96CC9ADE0 /* Pods_whale_ios_alexanderdejeu.framework */; };
 		A6D6D89C843C219E3C78C6B7 /* Pods_whale_ios_alexanderdejeuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */; };
 		FA214ACF1E8C30DC00638F38 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214ACE1E8C30DC00638F38 /* ActivityViewController.swift */; };
+		FA23FC561E9808E80074E566 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23FC551E9808E80074E566 /* HomeViewController.swift */; };
 		FA2EF0D91E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2EF0D81E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib */; };
 		FA2EF0DB1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EF0DA1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift */; };
 		FA31409F1E82F4BC00A917A0 /* ProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */; };
@@ -58,6 +59,7 @@
 		EE9C3ED707086D07440EA0A0 /* Pods-whale-ios-alexanderdejeuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuTests/Pods-whale-ios-alexanderdejeuTests.release.xcconfig"; sourceTree = "<group>"; };
 		F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA214ACE1E8C30DC00638F38 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		FA23FC551E9808E80074E566 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FA2EF0D81E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhaleQuestionCollectionViewCell.xib; sourceTree = "<group>"; };
 		FA2EF0DA1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhaleQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeader.xib; sourceTree = "<group>"; };
@@ -142,6 +144,14 @@
 			path = ActivityViewController;
 			sourceTree = "<group>";
 		};
+		FA23FC541E9808CC0074E566 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA23FC551E9808E80074E566 /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
 		FA2EF0D71E8990A6005BAA25 /* WhaleQuestionCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		FA31409C1E82F46700A917A0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA23FC541E9808CC0074E566 /* HomeViewController */,
 				FA214ACD1E8C302000638F38 /* ActivityViewController */,
 				FA2EF0D71E8990A6005BAA25 /* WhaleQuestionCell */,
 				FA3140A31E830D3300A917A0 /* LoginSingup */,
@@ -595,6 +606,7 @@
 				FA2EF0DB1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift in Sources */,
 				FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */,
 				FA3140A11E82F5C500A917A0 /* ProfileHeader.swift in Sources */,
+				FA23FC561E9808E80074E566 /* HomeViewController.swift in Sources */,
 				FA3140FB1E8315C600A917A0 /* WhaleAPI.swift in Sources */,
 				FA214ACF1E8C30DC00638F38 /* ActivityViewController.swift in Sources */,
 				FA3141011E8323F400A917A0 /* WhaleVideoView.swift in Sources */,

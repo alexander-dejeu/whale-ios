@@ -12,7 +12,7 @@
         <!--Home-->
         <scene sceneID="gX6-AX-9NM">
             <objects>
-                <viewController id="DQw-fJ-91f" sceneMemberID="viewController">
+                <viewController id="DQw-fJ-91f" customClass="HomeViewController" customModule="whale_ios_alexanderdejeu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EG0-id-AYr"/>
                         <viewControllerLayoutGuide type="bottom" id="fAl-IC-4u0"/>
@@ -20,9 +20,40 @@
                     <view key="view" contentMode="scaleToFill" id="MTm-mE-3wP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="pGh-fm-LLF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ndN-y6-sYW">
+                                    <size key="itemSize" width="375" height="295"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3qC-Yx-nCa" customClass="WhaleQuestionCollectionViewCell" customModule="whale_ios_alexanderdejeu" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="295"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pGh-fm-LLF" firstAttribute="leading" secondItem="MTm-mE-3wP" secondAttribute="leading" id="VTW-uX-ys7"/>
+                            <constraint firstItem="fAl-IC-4u0" firstAttribute="top" secondItem="pGh-fm-LLF" secondAttribute="bottom" id="c0c-Jx-Nmn"/>
+                            <constraint firstItem="pGh-fm-LLF" firstAttribute="top" secondItem="MTm-mE-3wP" secondAttribute="top" id="qbE-NN-mug"/>
+                            <constraint firstAttribute="trailing" secondItem="pGh-fm-LLF" secondAttribute="trailing" id="zOW-yS-mPA"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="homeSelected" id="ZOw-Hc-1Zq"/>
+                    <connections>
+                        <outlet property="questionCollectionView" destination="pGh-fm-LLF" id="ccf-xb-aH7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TFK-yl-hmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

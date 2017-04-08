@@ -10,10 +10,11 @@ import UIKit
 
 class ActivityViewController: UIViewController {
   
+  let whaleAPI = WhaleAPI()
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    print("Yeah lets test doing some of the good good calling")
+//    whaleAPI.getAnswers(page: 0, perPage: 2)
   }
   
   

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import KeychainAccess
 import Alamofire
 
 //enum httpMethods : String{
@@ -40,10 +41,11 @@ class WhaleAPI {
   func makeLoginUserCall(email : String, password : String,  completionHandler: @escaping (NSDictionary?, Error?, [String: Any]?) -> ()){
     var loginParams : [String : Any] = [:]
     loginParams = ["email" : email, "password" : password]
-    Alamofire.request("https://whale2-elixir.herokuapp.com/api/v1/sessions", method: .post, parameters : loginParams).responseJSON { response in
+    let path : whalePaths = .sessions
+    let urlString = (baseURL?.absoluteString)! + path.rawValue
+    Alamofire.request(urlString, method: .post, parameters : loginParams).responseJSON { response in
       
       print("Response: \(response.response)")
-//      print("Get that good good header \(response.response?.value(forKeyPath: "Authorization"))")
       
       switch response.result {
       case .success(let value):
@@ -56,5 +58,35 @@ class WhaleAPI {
       print("Error: \(response.error)")
       
     }.resume()
+  }
+  
+  func getAnswers(page : Int = 0, perPage : Int = 2, completionHandler: @escaping (NSDictionary?, Error?, [String: Any]?) -> ()){
+    var answerParams : [String : Any] = [:]
+    answerParams = ["Intpage" : page, "per_page" : perPage]
+    let path : whalePaths = .answers
+    let urlString = (baseURL?.absoluteString)! + path.rawValue
+    print(urlString)
+    
+    var headerParams : HTTPHeaders = [:]
+    let keychain = Keychain(service: "whaleAPI")
+    let token : String = keychain[string: "auth_token"]!
+    headerParams["Authorization"] = token
+    headerParams["Accept"] = "application/json"
+    
+    
+    Alamofire.request(urlString, method : .get, parameters : answerParams, headers : headerParams).responseJSON { response in
+      print(response.response)
+      
+      switch response.result {
+      case .success(let value):
+        completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
+      case .failure(let error):
+        completionHandler(nil, error, nil)
+      }
+      print("Request: \(response.request)")
+      
+      print("Error: \(response.error)")
+      
+      }.resume()
   }
 }

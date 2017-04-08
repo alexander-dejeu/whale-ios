@@ -28,11 +28,11 @@ class LoginViewController: UIViewController {
       responseJSON, error, headers  in
       if error == nil{
         print("Need to save to keychain!")
-        print("The headerKush is!! \(headers?["Authorization"]!)")
+        print("The header is!! ")
         
         let keychain = Keychain(service: "whaleAPI")
         do {
-          try keychain.set("\(headers?["Authorization"]!)", key: "auth_token")
+          try keychain.set("\((headers?["Authorization"]!)!)", key: "auth_token")
         }
         catch let error {
           print(error)

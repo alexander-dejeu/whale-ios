@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var initialViewController: UIViewController
     let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
     self.window = UIWindow(frame: UIScreen.main.bounds)
-    
     if token == ""{
       initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
     }
