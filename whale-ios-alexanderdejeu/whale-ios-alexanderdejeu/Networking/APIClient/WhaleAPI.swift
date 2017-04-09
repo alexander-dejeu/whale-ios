@@ -75,7 +75,6 @@ class WhaleAPI {
       
       switch response.result {
       case .success(let value):
-        
         print("We should convert to answer objects? ")
         completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
       case .failure(let error):
