@@ -26,10 +26,6 @@ enum whalePaths : String {
   case questions = "/questions"
 }
 
-class User{
-  
-}
-
 class WhaleAPI {
   
   let baseURL = URL(string: "https://whale2-elixir.herokuapp.com/api/v1")
@@ -79,6 +75,8 @@ class WhaleAPI {
       
       switch response.result {
       case .success(let value):
+        
+        print("We should convert to answer objects? ")
         completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
       case .failure(let error):
         completionHandler(nil, error, nil)

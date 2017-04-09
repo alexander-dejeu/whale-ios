@@ -12,6 +12,9 @@
 		A6D6D89C843C219E3C78C6B7 /* Pods_whale_ios_alexanderdejeuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F817ADDA55089B08B16F09 /* Pods_whale_ios_alexanderdejeuUITests.framework */; };
 		FA214ACF1E8C30DC00638F38 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214ACE1E8C30DC00638F38 /* ActivityViewController.swift */; };
 		FA23FC561E9808E80074E566 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23FC551E9808E80074E566 /* HomeViewController.swift */; };
+		FA2BAE431E9AEA58009D2265 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BAE421E9AEA58009D2265 /* Answer.swift */; };
+		FA2BAE451E9AEA60009D2265 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BAE441E9AEA60009D2265 /* User.swift */; };
+		FA2BAE471E9AECC0009D2265 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BAE461E9AECC0009D2265 /* Question.swift */; };
 		FA2EF0D91E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2EF0D81E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib */; };
 		FA2EF0DB1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2EF0DA1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift */; };
 		FA31409F1E82F4BC00A917A0 /* ProfileHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */; };
@@ -60,6 +63,9 @@
 		F4AB2E0FDF234E765BA7C3B9 /* Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whale-ios-alexanderdejeuUITests/Pods-whale-ios-alexanderdejeuUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA214ACE1E8C30DC00638F38 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		FA23FC551E9808E80074E566 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA2BAE421E9AEA58009D2265 /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		FA2BAE441E9AEA60009D2265 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA2BAE461E9AECC0009D2265 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FA2EF0D81E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhaleQuestionCollectionViewCell.xib; sourceTree = "<group>"; };
 		FA2EF0DA1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhaleQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 		FA31409E1E82F4BC00A917A0 /* ProfileHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileHeader.xib; sourceTree = "<group>"; };
@@ -309,6 +315,9 @@
 		FAD5A6AE1E80488A003510D8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA2BAE421E9AEA58009D2265 /* Answer.swift */,
+				FA2BAE441E9AEA60009D2265 /* User.swift */,
+				FA2BAE461E9AECC0009D2265 /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -606,10 +615,13 @@
 				FA2EF0DB1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift in Sources */,
 				FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */,
 				FA3140A11E82F5C500A917A0 /* ProfileHeader.swift in Sources */,
+				FA2BAE431E9AEA58009D2265 /* Answer.swift in Sources */,
 				FA23FC561E9808E80074E566 /* HomeViewController.swift in Sources */,
 				FA3140FB1E8315C600A917A0 /* WhaleAPI.swift in Sources */,
 				FA214ACF1E8C30DC00638F38 /* ActivityViewController.swift in Sources */,
 				FA3141011E8323F400A917A0 /* WhaleVideoView.swift in Sources */,
+				FA2BAE451E9AEA60009D2265 /* User.swift in Sources */,
+				FA2BAE471E9AECC0009D2265 /* Question.swift in Sources */,
 				FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

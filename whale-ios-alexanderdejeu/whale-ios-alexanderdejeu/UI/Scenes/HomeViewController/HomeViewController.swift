@@ -19,8 +19,6 @@ class HomeViewController: UIViewController {
     
     questionCollectionView.dataSource = self
     questionCollectionView.register(UINib(nibName: "WhaleQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
-    
-//    questionCollectionView.register(WhaleQuestionCollectionViewCell.self, forCellWithReuseIdentifier: "questionCell")
 
     
     whaleAPI.getAnswers(page: 0, perPage: 2, completionHandler: {
