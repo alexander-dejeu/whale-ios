@@ -18,12 +18,15 @@ class HomeViewController: UIViewController {
     super.viewDidLoad()
     
     questionCollectionView.dataSource = self
-    questionCollectionView.register(WhaleQuestionCollectionViewCell.self, forCellWithReuseIdentifier: "questionCell")
+    questionCollectionView.register(UINib(nibName: "WhaleQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
+    
+//    questionCollectionView.register(WhaleQuestionCollectionViewCell.self, forCellWithReuseIdentifier: "questionCell")
 
     
     whaleAPI.getAnswers(page: 0, perPage: 2, completionHandler: {
       responseJSON, error, headers  in
       if error == nil{
+        
         print(responseJSON)
       }
       else{
@@ -36,7 +39,11 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController :  UICollectionViewDataSource {
   func collectionView(_ _collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    let cell = _collectionView.dequeueReusableCell(withReuseIdentifier: "questionCell", for: indexPath as IndexPath) as! WhaleQuestionCollectionViewCell
+    let cell = _collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! WhaleQuestionCollectionViewCell
+    print("mhmm")
+  //  cell.answerUserTagline.text = "Hello"
+  //  cell.answerUserTagline.textColor = .white
+  //  cell.contentView.backgroundColor = .black
     return cell
   }
   

@@ -157,6 +157,15 @@
                 <constraint firstAttribute="trailing" secondItem="1zg-3b-91i" secondAttribute="trailing" id="VY6-Hr-vxt"/>
             </constraints>
             <size key="customSize" width="487" height="295"/>
+            <connections>
+                <outlet property="answerUserFullnameLabel" destination="cTR-6n-2eP" id="g2X-oS-ycH"/>
+                <outlet property="answerUserProfileImageView" destination="052-q6-ZfY" id="opb-e2-Ssj"/>
+                <outlet property="answerUserTagline" destination="VEU-IB-YIh" id="uXH-gx-Sw4"/>
+                <outlet property="cellView" destination="1zg-3b-91i" id="Ppd-Q9-c1Y"/>
+                <outlet property="moreOptionsButton" destination="sx9-Ik-dqs" id="oCy-e5-s45"/>
+                <outlet property="questionLabel" destination="2FQ-3c-79G" id="oAT-35-Xcj"/>
+                <outlet property="questionView" destination="x8o-lR-iM6" id="5fN-d2-uW3"/>
+            </connections>
             <point key="canvasLocation" x="103.5" y="119.5"/>
         </collectionViewCell>
     </objects>
