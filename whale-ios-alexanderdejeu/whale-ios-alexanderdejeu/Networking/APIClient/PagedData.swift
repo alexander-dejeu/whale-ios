@@ -25,8 +25,12 @@ class PagedData<T>{
     
   }
   
+  func loadNextPage(){
+    currentPage += 1
+  }
+  
   func getLoadedItemCount() -> Int{
-    return perPage * (currentPage + 1)
+    return min(perPage * (currentPage + 1), items.count)
   }
   
 }

@@ -15,6 +15,18 @@ class User {
   var firstName : String?
   var email : String?
   
+  func getFullName() -> String {
+    var result = ""
+    if firstName != nil{
+      result += firstName! + " "
+    }
+    if lastName != nil{
+      result += lastName!
+    }
+    
+    return result.trimmingCharacters(in: .whitespaces)
+  }
+  
   init(json : [String : Any]){
     guard let username = json["username"] as? String else{
       print("Throw error")

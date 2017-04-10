@@ -15,6 +15,10 @@ class Answer {
   var id : Int?
   var commentCount : Int?
   
+  init(){
+    
+  }
+  
   init(json : [String : Any]){
     guard let videoURL = json["video_url"] as? String else{
       print("Video URL failed")
@@ -31,9 +35,10 @@ class Answer {
       return
     }
     
-    guard let likesCount = json["likes_count"] as? Int else{
-      print("likes count failed")
-      return
+    var likesCount = 0
+    print(json["likes_count"]!)
+    if ((json["likes_count"] as? Int) != nil){
+      likesCount = (json["likes_count"] as? Int)!
     }
     
     guard let id = json["id"] as? Int else{
@@ -41,9 +46,9 @@ class Answer {
       return
     }
     
-    guard let commentCount = json["comment_count"] as? Int else{
-      print("Comment Count failed")
-      return
+    var commentCount = 0
+    if ((json["comment_count"] as? Int) != nil){
+      commentCount = (json["comment_count"] as? Int)!
     }
     
     self.videoURL = videoURL
