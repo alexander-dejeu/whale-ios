@@ -71,7 +71,7 @@ class WhaleAPI {
     
     
     Alamofire.request(urlString, method : .get, parameters : answerParams, headers : headerParams).responseJSON { response in
-      print(response.response)
+//      print(response.response)
       
       switch response.result {
       case .success(let value):
@@ -85,5 +85,41 @@ class WhaleAPI {
       print("Error: \(response.error)")
       
       }.resume()
+  }
+  
+  func getQuestions(page: Int = 0, perPage : Int = 5, completionHandler : @escaping (NSDictionary?, Error?, [String: Any]?) -> ()){
+    
+    var questionParams : [String : Any] = [:]
+    questionParams = ["Intpage" : page, "per_page" : perPage]
+    let path : whalePaths = .questions
+    let urlString = (baseURL?.absoluteString)! + path.rawValue
+    print(urlString)
+    
+    var headerParams : HTTPHeaders = [:]
+    let keychain = Keychain(service: "whaleAPI")
+    let token : String = keychain[string: "auth_token"]!
+    headerParams["Authorization"] = token
+    headerParams["Accept"] = "application/json"
+    
+    Alamofire.request(urlString, method : .get, parameters : questionParams, headers : headerParams).responseJSON { response in
+      //      print(response.response)
+      
+      switch response.result {
+      case .success(let value):
+        print("We should convert to question objects? ")
+        completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
+      case .failure(let error):
+        completionHandler(nil, error, nil)
+      }
+      print("Request: \(response.request)")
+      
+      print("Error: \(response.error)")
+      
+      }.resume()
+  }
+  
+  func convertJsonToQuestions(json : [[String : Any]]) -> [Question]{
+    
+    return []
   }
 }

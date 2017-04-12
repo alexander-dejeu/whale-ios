@@ -24,6 +24,10 @@
 		FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3140FC1E831BEC00A917A0 /* LoginViewController.swift */; };
 		FA3140FF1E8323C300A917A0 /* WhaleVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA3140FE1E8323C300A917A0 /* WhaleVideoView.xib */; };
 		FA3141011E8323F400A917A0 /* WhaleVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3141001E8323F400A917A0 /* WhaleVideoView.swift */; };
+		FA686D0C1E9E975F00EB819A /* CustomCollectionViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA686D0B1E9E975F00EB819A /* CustomCollectionViewHeader.xib */; };
+		FA686D0E1E9E976900EB819A /* CustomCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA686D0D1E9E976900EB819A /* CustomCollectionViewHeader.swift */; };
+		FA686D111E9EA15F00EB819A /* QuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA686D101E9EA15F00EB819A /* QuestionCell.xib */; };
+		FA686D131E9EA16900EB819A /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA686D121E9EA16900EB819A /* QuestionCell.swift */; };
 		FAD5A6781E80472B003510D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5A6771E80472B003510D8 /* AppDelegate.swift */; };
 		FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67B1E80472B003510D8 /* Main.storyboard */; };
 		FAD5A67F1E80472B003510D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD5A67E1E80472B003510D8 /* Assets.xcassets */; };
@@ -76,6 +80,10 @@
 		FA3140FC1E831BEC00A917A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA3140FE1E8323C300A917A0 /* WhaleVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhaleVideoView.xib; sourceTree = "<group>"; };
 		FA3141001E8323F400A917A0 /* WhaleVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhaleVideoView.swift; sourceTree = "<group>"; };
+		FA686D0B1E9E975F00EB819A /* CustomCollectionViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCollectionViewHeader.xib; sourceTree = "<group>"; };
+		FA686D0D1E9E976900EB819A /* CustomCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewHeader.swift; sourceTree = "<group>"; };
+		FA686D101E9EA15F00EB819A /* QuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionCell.xib; sourceTree = "<group>"; };
+		FA686D121E9EA16900EB819A /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
 		FAD5A6741E80472B003510D8 /* whale-ios-alexanderdejeu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whale-ios-alexanderdejeu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD5A6771E80472B003510D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD5A67C1E80472B003510D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -217,6 +225,24 @@
 			path = APIClient;
 			sourceTree = "<group>";
 		};
+		FA686D0A1E9E974A00EB819A /* CustomCollectionViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				FA686D0B1E9E975F00EB819A /* CustomCollectionViewHeader.xib */,
+				FA686D0D1E9E976900EB819A /* CustomCollectionViewHeader.swift */,
+			);
+			path = CustomCollectionViewHeader;
+			sourceTree = "<group>";
+		};
+		FA686D0F1E9EA15300EB819A /* QuestionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA686D101E9EA15F00EB819A /* QuestionCell.xib */,
+				FA686D121E9EA16900EB819A /* QuestionCell.swift */,
+			);
+			path = QuestionCell;
+			sourceTree = "<group>";
+		};
 		FAD5A66B1E80472B003510D8 = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +326,8 @@
 		FAD5A6AA1E804853003510D8 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				FA686D0F1E9EA15300EB819A /* QuestionCell */,
+				FA686D0A1E9E974A00EB819A /* CustomCollectionViewHeader */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -444,6 +472,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA686D111E9EA15F00EB819A /* QuestionCell.xib in Resources */,
 				FA2EF0D91E8990BF005BAA25 /* WhaleQuestionCollectionViewCell.xib in Resources */,
 				FAD5A6B61E805304003510D8 /* Profile.storyboard in Resources */,
 				FAD5A6821E80472B003510D8 /* LaunchScreen.storyboard in Resources */,
@@ -452,6 +481,7 @@
 				FAD5A6B31E8052B6003510D8 /* Activity.storyboard in Resources */,
 				FAD5A67D1E80472B003510D8 /* Main.storyboard in Resources */,
 				FA3140FF1E8323C300A917A0 /* WhaleVideoView.xib in Resources */,
+				FA686D0C1E9E975F00EB819A /* CustomCollectionViewHeader.xib in Resources */,
 				FAD5A6B11E805258003510D8 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,9 +648,11 @@
 				FA2EF0DB1E89913B005BAA25 /* WhaleQuestionCollectionViewCell.swift in Sources */,
 				FA2BAE491E9AF3C0009D2265 /* PagedData.swift in Sources */,
 				FA3140FD1E831BEC00A917A0 /* LoginViewController.swift in Sources */,
+				FA686D131E9EA16900EB819A /* QuestionCell.swift in Sources */,
 				FA3140A11E82F5C500A917A0 /* ProfileHeader.swift in Sources */,
 				FA2BAE431E9AEA58009D2265 /* Answer.swift in Sources */,
 				FA23FC561E9808E80074E566 /* HomeViewController.swift in Sources */,
+				FA686D0E1E9E976900EB819A /* CustomCollectionViewHeader.swift in Sources */,
 				FA3140FB1E8315C600A917A0 /* WhaleAPI.swift in Sources */,
 				FA214ACF1E8C30DC00638F38 /* ActivityViewController.swift in Sources */,
 				FA3141011E8323F400A917A0 /* WhaleVideoView.swift in Sources */,

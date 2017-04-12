@@ -14,7 +14,26 @@ class ActivityViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-//    whaleAPI.getAnswers(page: 0, perPage: 2)
+    
+    whaleAPI.getQuestions(page: 0, perPage: 5, completionHandler: { responseJSON, error, headers  in
+      if error == nil {
+        var questionData : [Question] = []
+        if let jsonData = responseJSON?["data"] as? [[String : Any]]{
+          for item in jsonData{
+            print("item 1: \(item)")
+            questionData.append(Question(json: item))
+          }
+          
+        }
+        print(questionData)
+//        self.questionCollectionView.reloadData()
+        
+      }
+      else{
+        print("prob should give the user some sort of warning")
+      }
+    })
+    
   }
   
   

@@ -20,10 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let keychain = Keychain(service: "whaleAPI")
     let token = keychain[string: "auth_token"]
     
+    print(token)
+    
     var initialViewController: UIViewController
     let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
     self.window = UIWindow(frame: UIScreen.main.bounds)
-    if token == ""{
+    if token == nil || token == "" {
       initialViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
     }
     else{

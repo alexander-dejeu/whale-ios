@@ -20,20 +20,22 @@ class HomeViewController: UIViewController {
     let flowLayout = UICollectionViewFlowLayout()
     flowLayout.itemSize = CGSize(width: self.view.frame.width, height: self.view.frame.width * 0.75)
     flowLayout.minimumLineSpacing = 5.0
+    flowLayout.headerReferenceSize = CGSize(width: self.view.frame.width, height: 120.0)
     
     questionCollectionView.collectionViewLayout = flowLayout
     
     questionCollectionView.dataSource = self
     questionCollectionView.delegate = self
+    
     questionCollectionView.register(UINib(nibName: "WhaleQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
+    questionCollectionView.register(UINib(nibName: "CustomCollectionViewHeader", bundle: nil), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header")
+
     
     
     
     whaleAPI.getAnswers(page: 0, perPage: 3, completionHandler: {
       responseJSON, error, headers  in
-      if error == nil{
-        
-//        print(responseJSON?["data"])
+      if error == nil {
         var answersData : [Answer] = []
         if let jsonData = responseJSON?["data"] as? [[String : Any]]{
           for item in jsonData{
@@ -78,9 +80,6 @@ extension HomeViewController :  UICollectionViewDataSource {
     let cell = _collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! WhaleQuestionCollectionViewCell
     print(answersPagedData.items[indexPath.item].thumbnailURL)
     cell.answer = answersPagedData.items[indexPath.item]
-//    cell.answerUserTagline.text = "Hello"
-//    cell.answerUserTagline.textColor = .white
-//    cell.contentView.backgroundColor = .black
     return cell
   }
   
@@ -91,5 +90,20 @@ extension HomeViewController :  UICollectionViewDataSource {
   
   func numberOfSections(in collectionView: UICollectionView) -> Int {
     return 1
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+    
+    let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header", for: indexPath) as! CustomCollectionViewHeader
+    
+    return header
+  }
+  
+  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+    return CGSize(width : self.view.frame.width, height: 120)
+  }
+  
+  func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+    return UIEdgeInsetsMake(0, 8, 0, 8)
   }
 }
