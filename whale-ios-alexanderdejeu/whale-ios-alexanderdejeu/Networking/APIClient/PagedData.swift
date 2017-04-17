@@ -13,6 +13,7 @@ class PagedData<T>{
   var perPage : Int = 0
   var currentPage : Int = 0
   var items : [T] = []
+  var closure : (Int, Int, (() -> () )?)? = nil
   
   init(totalPages : Int, perPage : Int, currentPage : Int = 0, items : [T]){
     self.totalPages = totalPages
@@ -25,11 +26,17 @@ class PagedData<T>{
     
   }
   
+  func setupPagedData(perPage: Int, currentPage : Int = 0){
+//    closure(perPage, currentPage)
+  }
+  
   func loadNextPage(){
     currentPage += 1
   }
   
   func getLoadedItemCount() -> Int{
+    print("perpage = \(perPage)")
+    print("page = \(currentPage)")
     return min(perPage * (currentPage + 1), items.count)
   }
   

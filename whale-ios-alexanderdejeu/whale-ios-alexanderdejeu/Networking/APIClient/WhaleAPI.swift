@@ -87,7 +87,7 @@ class WhaleAPI {
       }.resume()
   }
   
-  func getQuestions(page: Int = 0, perPage : Int = 5, completionHandler : @escaping (NSDictionary?, Error?, [String: Any]?) -> ()){
+  func getQuestions(page: Int = 0, perPage : Int = 5, completionHandler : ((NSDictionary?, Error?, [String: Any]?) -> ())? ){
     
     var questionParams : [String : Any] = [:]
     questionParams = ["Intpage" : page, "per_page" : perPage]
@@ -107,9 +107,9 @@ class WhaleAPI {
       switch response.result {
       case .success(let value):
         print("We should convert to question objects? ")
-        completionHandler(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
+        completionHandler!(value as? NSDictionary, nil, response.response?.allHeaderFields as! [String : Any]?)
       case .failure(let error):
-        completionHandler(nil, error, nil)
+        completionHandler!(nil, error, nil)
       }
       print("Request: \(response.request)")
       
@@ -119,7 +119,13 @@ class WhaleAPI {
   }
   
   func convertJsonToQuestions(json : [[String : Any]]) -> [Question]{
-    
-    return []
+    var result : [Question] = []
+    for item in json{
+      let newQuestion = Question(json: item)
+      if newQuestion != nil{
+         result.append(newQuestion)
+      }
+    }
+    return result
   }
 }

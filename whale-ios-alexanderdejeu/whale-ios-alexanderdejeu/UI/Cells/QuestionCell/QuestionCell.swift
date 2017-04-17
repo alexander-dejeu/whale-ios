@@ -8,5 +8,9 @@
 
 import UIKit
 class QuestionCell : UICollectionViewCell {
+  @IBOutlet weak var userProfileImage: UIImageView!
+  @IBOutlet weak var userFullName: UILabel!
+  @IBOutlet weak var userAskedAt: UILabel!
+  @IBOutlet weak var userQuestion: UILabel!
   
 }

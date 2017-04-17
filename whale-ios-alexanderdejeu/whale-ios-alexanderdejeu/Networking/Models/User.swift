@@ -6,7 +6,7 @@
 //  Copyright © 2017 Do Good Technology. All rights reserved.
 //
 
-import Foundation
+import UIKit
 class User {
   var username : String?
   var lastName : String?
@@ -14,6 +14,20 @@ class User {
   var id : Int?
   var firstName : String?
   var email : String?
+  
+
+  
+  func getUserProfileImage() -> UIImage{
+    print("Download Started")
+    var imageData : Data? = nil
+    URLSession.shared.dataTask(with:  URL(string: profileImageURL!)!) { (data, response, error) in
+      guard let data = data, error == nil else { return }
+      print("Download Finished")
+      imageData = data
+    }.resume()
+
+    return UIImage(data: imageData!)!
+  }
   
   func getFullName() -> String {
     var result = ""

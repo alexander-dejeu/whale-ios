@@ -83,6 +83,12 @@
                 <constraint firstAttribute="bottom" secondItem="SOa-7L-5n8" secondAttribute="bottom" id="wbd-Um-b7o"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="userAskedAt" destination="txI-dl-SeK" id="8VT-b8-mIn"/>
+                <outlet property="userFullName" destination="8m0-Jb-ce4" id="O0k-7z-DtO"/>
+                <outlet property="userProfileImage" destination="Z3k-c4-7fC" id="hpX-m1-Lda"/>
+                <outlet property="userQuestion" destination="Ghq-C8-f3L" id="ogb-Kw-aOT"/>
+            </connections>
             <point key="canvasLocation" x="15.5" y="-179.5"/>
         </view>
     </objects>

@@ -20,7 +20,7 @@ class HomeViewController: UIViewController {
     let flowLayout = UICollectionViewFlowLayout()
     flowLayout.itemSize = CGSize(width: self.view.frame.width, height: self.view.frame.width * 0.75)
     flowLayout.minimumLineSpacing = 5.0
-    flowLayout.headerReferenceSize = CGSize(width: self.view.frame.width, height: 120.0)
+    flowLayout.headerReferenceSize = CGSize(width: self.view.frame.width, height: 80.0)
     
     questionCollectionView.collectionViewLayout = flowLayout
     
@@ -29,8 +29,6 @@ class HomeViewController: UIViewController {
     
     questionCollectionView.register(UINib(nibName: "WhaleQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
     questionCollectionView.register(UINib(nibName: "CustomCollectionViewHeader", bundle: nil), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header")
-
-    
     
     
     whaleAPI.getAnswers(page: 0, perPage: 3, completionHandler: {
@@ -95,12 +93,12 @@ extension HomeViewController :  UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
     
     let header = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: "header", for: indexPath) as! CustomCollectionViewHeader
-    
+    header.headerLabel.text = "Latest"
     return header
   }
   
   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-    return CGSize(width : self.view.frame.width, height: 120)
+    return CGSize(width : self.view.frame.width, height: 80)
   }
   
   func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
